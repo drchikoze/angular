@@ -1,0 +1,8 @@
+.side-hotel { border: 1px solid #dfdfdf; padding: 8px 15px 15px; }
+.side-hotel-p { font-family: apercu_pro, Arial, sans-serif; font-size: 15px; line-height: 18px; font-weight: bolder; margin: 0 0 3px; }
+.side-hotel-d { font-size: 12px; line-height: 18px; border-bottom: 1px solid #dfdfdf; margin: 0 0 10px; padding: 0 0 10px; }
+.side-hotel-d:last-child { border-bottom: 0; margin: 0; padding: 0; }
+.side-hotel-p-a { color: #666; text-decoration: none; }
+.side-hotel-d-a { color: #999; text-decoration: none; }
+.side-hotel-p-a:hover,
+.side-hotel-d-a:hover { text-decoration: underline; }

@@ -1,0 +1,465 @@
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+@font-face {
+    font-family: 'apercu_pro_mono';
+    src: url('../fonts/ApercuMonoProRegular.eot');
+    src: url('../fonts/ApercuMonoProRegular.eot') format('embedded-opentype'),
+         url('../fonts/ApercuMonoProRegular.woff2') format('woff2'),
+         url('../fonts/ApercuMonoProRegular.woff') format('woff'),
+         url('../fonts/ApercuMonoProRegular.ttf') format('truetype'),
+         url('../fonts/ApercuMonoProRegular.svg#ApercuMonoProRegular') format('svg');
+}
+@font-face {
+    font-family: 'apercu_pro';
+    src: url('../fonts/ApercuProRegular.eot');
+    src: url('../fonts/ApercuProRegular.eot') format('embedded-opentype'),
+         url('../fonts/ApercuProRegular.woff2') format('woff2'),
+         url('../fonts/ApercuProRegular.woff') format('woff'),
+         url('../fonts/ApercuProRegular.ttf') format('truetype'),
+         url('../fonts/ApercuProRegular.svg#ApercuProRegular') format('svg');
+}
+@font-face {
+    font-family: 'apercu_pro_light';
+    src: url('../fonts/ApercuProLight.eot');
+    src: url('../fonts/ApercuProLight.eot') format('embedded-opentype'),
+         url('../fonts/ApercuProLight.woff2') format('woff2'),
+         url('../fonts/ApercuProLight.woff') format('woff'),
+         url('../fonts/ApercuProLight.ttf') format('truetype'),
+         url('../fonts/ApercuProLight.svg#ApercuProLight') format('svg');
+}
+@font-face {
+    font-family: 'apercu_pro_bold';
+    src: url('../fonts/ApercuProBold.eot');
+    src: url('../fonts/ApercuProBold.eot') format('embedded-opentype'),
+         url('../fonts/ApercuProBold.woff2') format('woff2'),
+         url('../fonts/ApercuProBold.woff') format('woff'),
+         url('../fonts/ApercuProBold.ttf') format('truetype'),
+         url('../fonts/ApercuProBold.svg#ApercuProBold') format('svg');
+}
+@font-face {
+    font-family: 'leto_bold';
+    src: url('../fonts/LetoSansBold.eot');
+    src: url('../fonts/LetoSansBold.eot') format('embedded-opentype'),
+         url('../fonts/LetoSansBold.woff2') format('woff2'),
+         url('../fonts/LetoSansBold.woff') format('woff'),
+         url('../fonts/LetoSansBold.ttf') format('truetype'),
+         url('../fonts/LetoSansBold.svg#LetoSansBold') format('svg');
+}
+body {
+    margin: 0;
+}
+.ls-hbr-widget * {
+    outline: 0; 
+    outline-offset: 0; 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ls-hbr-widget {
+    background: url(../i/widget/hbr-widget-bg1.png);
+    font-family: 'apercu_pro';
+    width: 180px;
+    position: absolute;
+    right: 0;
+}
+.ls-hbr-widget.color-grey {
+    background: url(../i/widget/hbr-widget-bg1-grey.png);
+}
+.hbr-widget-top {
+    height: 54px;
+    padding: 11px 0 0 14px;
+}
+.hbr-widget-h5 {
+    font-family: 'leto_bold';
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.hbr-widget-mid {
+    background: url(../i/widget/hbr-widget-bg2.png);
+    padding: 3px 15px 12px;
+}
+.hbr-widget-h6 {
+    font-size: 10px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 3px 0 5px 0;
+}
+.hbr-widget-form {}
+.hbr-widget-line {
+    background: #fff;
+    margin-bottom: 3px;
+    height: 28px;
+    line-height: 27px;
+    position: relative;
+}
+.hbr-widget-inp-wrap {
+    position: absolute; top: 0; right: 0;
+    z-index: 9980;
+    width: 100%;
+    height: 28px;
+    border: 1px solid transparent;
+}
+.hbr-widget-inp-wrap_act {
+    border-color: #efefef;
+    z-index: 9999;
+}
+.hbr-widget-lbl {
+    display: block;
+    float: left;
+    border-right: 1px solid #ebebeb;
+    width: 48px; height: 100%;
+    padding: 0 0 0 7px;
+    color: #b5b7ba;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.hbr-widget-field {
+    display: block;
+    position: relative;
+}
+.hbr-widget-hidden-inp {display: none;}
+.hbr-widget-lbl + .hbr-widget-field {padding-left: 48px;}
+.hbr-widget-inp {
+    display: inline-block;
+    color: #353b45;
+    font-size: 10px;
+    height: 26px;
+    width: 100%;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 20px 0 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+.hbr-widget-inp input {
+    text-transform: uppercase;
+    height: 27px;
+}
+.hbr-widget-inp-wday {
+    color: #bbbdbf;
+    font-weight: normal;
+}
+.hbr-widget-bot {
+    background: url(../i/widget/hbr-widget-bottom-tab.png) 50% 100% no-repeat;
+    height: 87px;
+    padding: 15px 0 0 0;
+    text-align: center;
+    font-family: 'apercu_pro_light';
+    font-size: 10px;
+    line-height: 20px;
+    position: relative;
+}
+.hbr-widget-bot .hbr-widget-bot-tourbook {
+    display: block;
+    width: 120px;
+    color: #ee6467;
+    position: absolute; right: 0; bottom: 4px; left: 0;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.color-grey .hbr-widget-bot .hbr-widget-bot-tourbook {
+    color: #979799;
+}
+.hbr-widget-submit {
+    font-family: 'apercu_pro_light';
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    height: 29px;
+    padding: 0 14px;
+    font-size: 10px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+}
+
+i.hbr-widget-icon {
+    background: #fff url(../i/widget/hr-widget-sprite.png) no-repeat;
+    display: inline-block;
+    width: 20px; height: 100%;
+    vertical-align: middle;
+    margin-left: -3px;
+}
+i.hbr-widget-icon.hbr-widget-btn {position: absolute; right: 0; top: 0;}
+i.hbr-widget-icon.hbr-widget-icon_calendar {background-position: 1px 8px;}
+i.hbr-widget-icon.hbr-widget-icon_list {background-position: 1px -31px;}
+i.hbr-widget-icon.hbr-widget-icon_star {background-position: 50% -108px;}
+i.hbr-widget-icon.hbr-widget-icon_close {background-position: 50% -70px; width: 7px; height: 7px;}
+i.hbr-widget-icon.hbr-widget-icon_larr {background-position: 50% -145px;}
+i.hbr-widget-icon.hbr-widget-icon_rarr {background-position: 50% -180px;}
+
+i.hbr-widget-icon.hbr-widget-icon_calendar:after,
+i.hbr-widget-icon.hbr-widget-icon_list:after {
+    content: "";
+    position: absolute; top: 0; left: -12px;
+    width: 12px; height: 100%;
+    background: url(../i/widget/shader-ltr-fff.png) 0 0 repeat-y;
+}
+
+.hbr-widget-modal {
+    display: none;
+    background: #fff;
+    width: 185px;
+    position: absolute; top: -3px; right: -3px;
+    -webkit-box-shadow: 0 0 10px #696969;
+    box-shadow: 0 0 10px #696969;
+    z-index: 9990;
+}
+.hbr-widget-modal-angular {
+    display: block;
+}
+.hbr-widget-modal-angular .hbr-widget-modal-scroll {
+    overflow-y: scroll;
+}
+.ie8 .hbr-widget-modal {border: 1px solid #bbb;}
+.hbr-widget-modal-top {
+    border-bottom: 1px solid #efefef;
+    height: 35px;
+    position: relative;
+}
+.hbr-widget-modal-close {
+    position: absolute; top: 14px; left: 13px;
+    width: 10px; height: 10px;
+    display: block;
+    background: url(../i/widget/hr-widget-sprite.png) no-repeat;
+    background-position: 50% -78px;
+}
+.hbr-widget-modal-mid {
+    font-family: 'apercu_pro_light'; 
+    font-size: 10px;
+}
+.hbr-widget-modal-scroll {max-height: 150px; position: relative;}
+.hbr-widget-modal-scroll:after {
+    content: "";
+    position: absolute; bottom: 0; left: 0;
+    height: 32px; width: 100%;
+    background: url(../i/widget/shader-ttb-fff.png) 0 0 repeat-x;
+    z-index: 10;
+    pointer-events: none;
+}
+.hbr-widget-modal-scroll.scroll-finish:after {
+    content: none;
+}
+.hbr-widget-line_top .hbr-widget-modal-scroll {max-height: 236px;}
+.hbr-widget-modal-mid-inner {
+    padding: 6px 14px 6px 6px;
+}
+.hbr-widget-modal-th {
+    background: #ebebeb;
+    color: #353b45;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 14px;
+}
+.hbr-widget-modal-tr {
+    text-transform: uppercase;
+    line-height: 28px;
+    overflow: hidden;
+    color: #000;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 3px;
+    overflow: hidden;
+    position: relative;
+}
+.hbr-widget-modal-scroll .hbr-widget-modal-tr:hover {
+    background: #fef0f0;
+    color: #ef3b3f;
+}
+.hbr-widget-modal-scroll .hbr-widget-modal-tr:after {
+    content: "";
+    position: absolute; top: 0; right: 0;
+    width: 18px; height: 100%;
+    background: url(../i/widget/shader-ltr-fff.png) 0 0 repeat-y;
+}
+.hbr-widget-modal-scroll .hbr-widget-modal-tr:hover:after {
+    background-image: url(../i/widget/shader-ltr-pink.png);
+}
+.hbr-widget-modal-select-item {cursor: pointer;}
+.hbr-widget-modal-select-no-val {color: lightgrey;}
+.hbr-widget-modal-scroll .hbr-widget-modal-tr {line-height: 21px; padding: 0 6px; margin-bottom: 0;}
+.hbr-widget-modal-key {
+    float: left;
+}
+.hbr-widget-modal-val {
+    float: right;
+    color: #a7a9ad;
+}
+.hbr-widget-modal-inp {
+    width: 100px;
+    border: 1px solid #efefef;
+    height: 28px;
+    line-height: 26px;
+    padding: 0 10px;
+    font-family: 'apercu_pro_mono';
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.hbr-widget-modal-radio-group {}
+.hbr-widget-modal-radio {position: absolute; left: -99999px;}
+.hbr-widget-modal-radio-lbl {
+    float: left;
+    text-align: center;
+    width: 28px;
+    border: 1px solid #efefef;
+    background: none;
+    border-width: 1px 0;
+    cursor: pointer;
+}
+.hbr-widget-modal-radio:first-child + .hbr-widget-modal-radio-lbl {border-left-width: 1px;}
+.hbr-widget-modal-radio-lbl:last-child {border-right-width: 1px;}
+.hbr-widget-modal-radio:checked + .hbr-widget-modal-radio-lbl {background: #f23e42; color: #fff;}
+.hbr-widget-modal-radio:disabled + .hbr-widget-modal-radio-lbl {opacity: 0.5; color: #F23E42; background-color: #DADADA;}
+.color-grey .hbr-widget-modal-radio:checked + .hbr-widget-modal-radio-lbl {background: #707173; color: #fff;}
+.color-grey .hbr-widget-modal-radio:disabled + .hbr-widget-modal-radio-lbl {opacity: 0.5; color: #707173; background-color: #DADADA;}
+
+.hbr-wodget-datepicker-holder {}
+.hbr-widget-modal-guests {
+    padding: 3px 3px 0 14px;
+}
+.hbr-widget-modal-conditional {
+    border-top: 1px solid #efefef;
+    padding: 0 3px 0 8px;
+}
+.hbr-widget-modal-haskids {
+    display: none;
+}
+.hbr-widget-modal-haskids:first-child {border: 0; margin-top: 3px;}
+.hbr-widget-modal-haskids:nth-child(1), .hbr-widget-modal-haskids:nth-child(2) {display: block;}
+.hbr-widget-modal-bot {
+    background: #f3f3f3;
+    text-align: center;
+    padding: 10px;
+}
+.hbr-widget-modal-btn {
+    display: inline-block;
+    font-family: 'apercu_pro_bold';
+    border: 1px solid #c83831;
+    border-radius: 3px;
+    height: 29px;
+    padding: 0 14px;
+    font-size: 10px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #c83831;
+    background: none;
+    cursor: pointer;
+}
+.color-grey .hbr-widget-modal-btn {
+    border: 1px solid #707173;
+    color: #707173;
+}
+
+/*================================================================================
+                        datepicker
+==================================================================================*/
+.ls-hbr-widget .datepicker-field {background: #fff; cursor: pointer; position: relative; color: #060606; display: inline-block; vertical-align: top; padding-left: 8px; margin-left: 8px; text-decoration: none;border-top-right-radius: 3px; border-bottom-right-radius: 3px;}
+.ls-hbr-widget .datepicker-field>input {border: 0; width: 95px; display: inline-block; vertical-align: middle; cursor: pointer;}
+.ls-hbr-widget .datepicker-field>input + .header-m-filter-sel-i {margin-left: 0; cursor: pointer;}
+.ls-hbr-widget .ui-datepicker-today {background: #F1BE33;}
+.ls-hbr-widget .ui-helper-clearfix:after {clear: both;}
+.ls-hbr-widget .ui-helper-clearfix {min-height: 0;}
+.ls-hbr-widget .ui-state-disabled {cursor: default !important;}
+.ls-hbr-widget .ui-icon {display: block;overflow: hidden;background-repeat: no-repeat;}
+.ls-hbr-widget .ui-button,
+.ls-hbr-widget .ui-button:hover {text-decoration: none;}
+.ls-hbr-widget .ui-button-text-icons .ui-button-text {padding: .4em 2.1em .4em 1em;}
+.ls-hbr-widget .ui-button-text-icons .ui-button-text {padding-left: 2.1em;padding-right: 2.1em;}
+.ls-hbr-widget .ui-button-icon-only .ui-icon {left: 50%;margin-left: -8px;}
+.ls-hbr-widget #ui-datepicker-div {margin: 30px 0px 0px -117px;font-size: 13px;box-shadow:0 0 4px #B9B9B9;}
+.ls-hbr-widget .ui-datepicker {width: auto;padding: 0;display: none;}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-header {position: relative;padding: 0;font-family: 'apercu_pro_light';color: #000;}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-prev,
+.ls-hbr-widget .ui-datepicker .ui-datepicker-next {position: absolute;top: 0px;height: 27px;cursor: pointer;font-family: 'apercu_pro_mono';text-transform: uppercase;font-size: 10px;color: #f23e42;font-weight: normal;}
+.ls-hbr-widget.color-grey .ui-datepicker .ui-datepicker-prev,
+.ls-hbr-widget.color-grey .ui-datepicker .ui-datepicker-next {color: #707173;}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-prev {left: 104px}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-next {left: 143px;}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-prev-hover {}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-next-hover {}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-prev span,
+.ls-hbr-widget .ui-datepicker .ui-datepicker-next span {display: block;position: absolute;height: 27px;line-height: 27px;width: 30px;}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-prev span {background: url(../i/widget/hr-widget-sprite.png) no-repeat 0 -141px!important;padding-left: 12px;}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-next span {background: url(../i/widget/hr-widget-sprite.png) no-repeat 100% -176px!important;padding-right: 12px;text-align: right;}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-title {margin: 0;font-size: 10px;text-transform: uppercase;line-height: 27px;font-weight: normal;text-align: left;padding: 0 12px;}
+.ls-hbr-widget .ui-datepicker table {width: 100%;font-size: .9em;border-collapse: collapse;margin: 0 0 .4em;}
+.ls-hbr-widget .ui-datepicker th {padding: 0;color: #bbb;text-align: center;font-size: 10px;line-height: 28px;font-weight: normal;border: 0;border-bottom: 0;font-family: 'apercu_pro_mono';text-transform: uppercase;background: #f8f8f8;}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-week-end {}
+.ls-hbr-widget .ui-datepicker .ui-datepicker-week-end:last-of-type {}
+.ls-hbr-widget .ui-datepicker td {border: 0;height: 24px;line-height: 23px;font-family: 'apercu_pro_mono';font-size: 10px; border-bottom: 1px solid #fff;border-left: 1px solid #fff;}
+.ls-hbr-widget .ui-datepicker td:first-child {border-left: 0;}
+.ls-hbr-widget .ui-datepicker td span,
+.ls-hbr-widget .ui-datepicker td a {display: block;padding: 0 5px;line-height: 23px;text-align: right;text-decoration: none;}
+.ls-hbr-widget .ui-datepicker-rtl .ui-datepicker-prev:hover {right: 1px;left: auto;}
+.ls-hbr-widget .ui-datepicker-rtl .ui-datepicker-next:hover {left: 1px;right: auto;}
+.ls-hbr-widget .ui-tabs .ui-tabs-nav li a {cursor: pointer;}
+.ls-hbr-widget .ui-widget {font-family: Arial, Helvetica, sans-serif;;font-size: 12px;}
+.ls-hbr-widget .ui-widget-content {border: 0;color: #333333;}
+.ls-hbr-widget .ui-widget-content a {color: #333333;}
+.ls-hbr-widget .ui-widget-header {border: 0;color: #666666;font-weight: bold;}
+.ls-hbr-widget .ui-widget-header a {color: #666666;}
+.ls-hbr-widget .ui-state-default,
+.ls-hbr-widget .ui-widget-content .ui-state-default,
+.ls-hbr-widget .ui-state-hover a:hover {color: #010101;text-decoration: none;}
+.ls-hbr-widget .ui-state-disabled,
+.ls-hbr-widget .ui-widget-content .ui-state-disabled,
+.ls-hbr-widget .ui-widget-header .ui-state-disabled {opacity: .35;filter:Alpha(Opacity=35);background-image: none;}
+.ls-hbr-widget .ui-state-disabled .ui-icon {filter:Alpha(Opacity=35);}
+.ls-hbr-widget .ui-icon {width: 30px;height: 16px;}
+.ls-hbr-widget .ui-icon,
+.ls-hbr-widget .ui-widget-content .ui-icon {background-image: url(images/ui-icons_222222_256x240.png);}
+.ls-hbr-widget .ui-widget-header .ui-icon {background-image: url(images/ui-icons_a7a596_256x240.png);}
+.ls-hbr-widget .ui-icon-circle-triangle-e { background-position: -48px -192px; }
+.ls-hbr-widget .ui-icon-circle-triangle-w { background-position: -80px -192px; }
+.ls-hbr-widget .ui-corner-all,
+.ls-hbr-widget .ui-corner-all,
+.ls-hbr-widget .ui-corner-top,
+.ls-hbr-widget .ui-corner-all
+.ls-hbr-widget .ui-corner-left {border-bottom-left-radius: 0;}
+.ls-hbr-widget .ui-corner-all,
+.ls-hbr-widget .ui-corner-bottom,
+.ls-hbr-widget .ui-corner-right {border-bottom-right-radius: 0;}
+.ls-hbr-widget .ui-widget-overlay {background: #000 url(images/ui-bg_flat_20_000_40x100.png) 50% 50% repeat-x;opacity: .5;filter: Alpha(Opacity=50);}
+
+.ls-hbr-widget .date-range-selected.ui-datepicker-current-day {
+    background: #f23e42;
+    color: #fff;
+}
+.ls-hbr-widget.color-grey .date-range-selected.ui-datepicker-current-day {
+    background: #707173;
+}
+.ls-hbr-widget td.date-range-selected {background: #feebec;font-weight: normal;color: #f13d41;}
+.ls-hbr-widget td.date-range-selected a {font-weight: normal;color: #f13d41;}
+.ls-hbr-widget td.date-range-selected.date-range-start {
+    background: url(../i/widget/range-borders-lbl.png) -24px 50% no-repeat;
+    color: #fff;
+}
+.ls-hbr-widget.color-grey td.date-range-selected.date-range-start {
+    background: url(../i/widget/range-borders-lbl-grey.png) -24px 50% no-repeat;
+}
+.ls-hbr-widget td.date-range-selected.date-range-start a {color: #fff;}
+.ls-hbr-widget td.date-range-selected.date-range-end {
+    background: url(../i/widget/range-borders-lbl.png) 0 50% no-repeat;
+    color: #fff;
+}
+.ls-hbr-widget.color-grey td.date-range-selected.date-range-end {
+    background: url(../i/widget/range-borders-lbl-grey.png) 0 50% no-repeat;
+}
+.ls-hbr-widget td.date-range-selected.date-range-end a {color: #fff;}

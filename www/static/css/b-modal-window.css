@@ -1,0 +1,56 @@
+.modal-window, .tourbook-form .modal-window.modal {
+  display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 520px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 10px #969696;
+  box-shadow: 0 0 10px #969696;
+  z-index: 102;
+}
+
+@media screen and (min-width: 775px) {
+    .modal-window {
+        margin: auto;
+        height: 350px;
+        bottom: 0;
+    }
+}
+
+.modal-window-top {
+  position: relative;
+  height: 49px;
+  padding: 14px 20px 0;
+}
+.modal-window-ttl {
+  display: inline-block;
+  vertical-align: top;
+  font-family: "apercu_pro_bold";
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+}
+.modal-window-x {
+  position: absolute; top: 15px; right: 20px;
+  width: 15px; height: 15px;
+  background: url(/static/i/icon-modal-close-15x15.png);
+  border: 0;
+  outline: 0;
+}
+.modal-window-bot {
+  padding: 20px;
+}
+.modal-window-bot:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.modal-window-bot-l {
+  float: left;
+}
+.modal-window-bot-r {
+  float: right;
+}

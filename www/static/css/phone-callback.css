@@ -1,0 +1,112 @@
+@media screen and (max-width: 760px) {
+    #phone_callback_full, .phone_callback_close {
+        display: none;
+    }
+    .modal-window-new-request.modal.modal_phone_callback {
+        width: 100% !important;
+    }
+    .phone_callback_manager img {
+        display: none;
+    }
+}
+#phone_callback a#phone_callback_full {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 280px;
+    background-color: #f13d41;
+    color: #fff;
+    font-size: 20px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    z-index: 2147483646;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#phone_callback a#phone_callback_part {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+/*    background: #f13d41 url("../i/icon-phone3.png") center no-repeat;*/
+    background: #f13d41;
+    color: #fff;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 50px;
+    padding: 14px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    z-index: 2147483646;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#phone_callback a#phone_callback_part i {
+    font-size: 26px;
+    line-height: 26px;
+}
+
+#phone_callback a#phone_callback_full:hover, #phone_callback a#phone_callback_part:hover {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+#phone_callback .img-inline {
+    width: 50px;
+    -moz-border-radius: 50px; /* Firefox */
+    -webkit-border-radius: 50px; /* Safari, Chrome */
+    -khtml-border-radius: 50px; /* KHTML */
+    border-radius: 50px; /* CSS3 */
+    float: left;
+    margin: 0 10px 0 0;
+}
+
+.img-inline.manager-1-50 {
+    background: url("../i/manager1-50.jpg") center no-repeat;
+}
+
+.img-inline.manager-2-50 {
+    background: url("../i/manager2-50.jpg") center no-repeat;
+}
+
+#phone_callback span {
+    margin: 5px 0 0 0;
+    position: absolute;
+}
+
+.phone_callback_manager {
+    margin: 0 0 20px 0;
+}
+
+.phone_callback_manager img {
+    width: 100px;
+    -moz-border-radius: 100px; /* Firefox */
+    -webkit-border-radius: 100px; /* Safari, Chrome */
+    -khtml-border-radius: 100px; /* KHTML */
+    border-radius: 100px; /* CSS3 */
+    float: left;
+}
+
+.phone_callback_manager_text {
+    float: left;
+    width: 300px;
+    margin: 10px 0 0 10px;
+}
+
+.phone_callback_close {
+    width: 15px;
+    height: 15px;
+/*    background: url("../i/icon-arrow-dwn2.png") center no-repeat;*/
+    position: fixed;
+    bottom: 60px;
+    right: 25px;
+    z-index: 2147483647;
+    cursor: pointer;
+    color: #fff;
+}
+

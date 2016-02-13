@@ -1,0 +1,534 @@
+body {
+    font-family: Tahoma, Arial, sans-serif
+}
+
+.w800 {
+    width: 800px;
+}
+
+.tourbook-logo {
+    float: left;
+    font-size: 34px;
+}
+
+.logo-descr {
+    font-size: 10px;
+    display: inline-block;
+    padding: 10px;
+    color: #f29191;
+}
+
+.logo_tr {
+    background-color: #ed2125;
+    color: #FFFFFF
+}
+
+.logo-img-td {
+    padding: 15px 28px 14px 28px;
+}
+
+.logo-a {
+    width: 350px;
+    height: 34px;
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.phone-td {
+    font-size: 18px;
+    vertical-align: middle;
+    line-height: 22px;
+    color: #fff;
+}
+
+.phone-img {
+    width: 19px;
+    height: 20px;
+    display: inline-block;
+}
+
+.action-content {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px
+}
+
+.block {
+    display: block;
+}
+
+.price-rur {
+    font-size: 16px;
+    color: #999;
+    display: block;
+    font-weight: 400;
+}
+
+.price-old {
+    text-decoration: line-through;
+}
+
+.step1-table {
+    width: 800px;
+    border: 1px solid #e9e9e9;
+    margin-bottom: 15px
+}
+
+.step1-table-l {
+    width: 567px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.step1-table-l div {
+    font-size: 12px;
+}
+
+.table-line1 {
+    color: #999999;
+    display: inline-block;
+    min-width: 125px;
+}
+
+.table-line2 {
+    min-width: 200px;
+}
+
+.table-line3, .step1-r-name {
+    color: #999999
+}
+
+.border-top {
+    border-top: 1px solid #f6f6f6;
+}
+
+.table-line {
+    padding: 10px 0 9px 0;
+}
+
+.step1-well-r {
+    width: 163px;
+    height: 100%;
+    vertical-align: top;
+    background-color: #fcfaf7;
+    padding: 10px 5px 10px 15px;
+    border-left: 1px solid #e9e9e9;
+}
+
+.step1-r-value {
+    display: block;
+    position: relative;
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.tourist-header {
+    text-align: left;
+    font-size: 24px
+}
+
+.tourist-td {
+    text-align: center;
+    border: 1px solid #e9e9e9;
+    padding: 0 15px;
+}
+
+.tourist-td table {
+    width: 100%;
+    font-size: 12px
+}
+
+.tourist-td td {
+    width: 114px;
+}
+
+.border-top-tr td {
+    border-top: 1px solid #e9e9e9
+}
+
+.next-step-header {
+    margin: 0;
+    font-size: 14px;
+    color: #ed2125;
+}
+
+.next-step-ol {
+    margin-top: 0;
+    padding-top: 0
+}
+
+.block-in-ol {
+    padding: 10px;
+    background: #efefef;
+    font-size: 12px;
+    display: block;
+    width: 400px;
+    margin: 5px 15px;
+}
+
+.block-in-ol p {
+    margin: 0;
+}
+
+.info-operator-booking-id {
+    display: none;
+}
+
+.modal-mid {
+    width: 635px;
+    padding: 0;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.operator-booking-id {
+    font-weight: 900;
+}
+
+.first-column-service-info {
+    height: 26px;
+    vertical-align: top;
+    padding: 5px 0 8px 10px;
+    font-size: 13px;
+    color: #424242;
+    font-style: italic;
+    width: 175px;
+}
+
+.no-last-row {
+    border-bottom: 1px solid #f3ede3;
+}
+
+.second-column-service-info {
+    height: 26px;
+    vertical-align: top;
+    padding: 6px 0 8px;
+    color: #8a8a8a;
+}
+
+.inner-header-block {
+    height: 26px;
+    padding: 6px 0 0 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00599e;
+}
+
+.w161 {
+    width: 161px;
+}
+
+.outer-tour-info-block {
+    border: 1px solid #f1ede3;
+    background: #fff;
+    padding: 7px 0 0;
+    margin: 3px 0 0;
+    width: 635px;
+}
+
+.inner-tour-info-block {
+    margin: 0 12px 9px;
+    border: 1px solid #f3ede3;
+    border-bottom: 0;
+    padding: 3px 0 0;
+}
+
+.table-style {
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #000;
+    font-size: 12px;
+}
+
+.accommodation-name-td {
+    height: 26px;
+    border-bottom: 1px solid #f3ede3;
+    vertical-align: top;
+    padding: 3px 0 0 10px;
+    font-size: 13px;
+    color: #7c7d7d;
+}
+
+.accommodation-content-td {
+    height: 26px;
+    border-bottom: 1px solid #f3ede3;
+    vertical-align: top;
+    padding: 4px 0 0;
+}
+
+.hotel-div {
+    padding: 0 10px;
+    border-bottom: 1px solid #f3ede3;
+}
+
+.hotel-name-block {
+    height: 26px;
+    vertical-align: top;
+    padding: 7px 0 0;
+    color: #00599e;
+}
+
+.hotel-name-a {
+    color: #00599e;
+    text-decoration: none;
+}
+
+.room-type-head {
+    height: 26px;
+    vertical-align: top;
+    padding: 3px 0 0 10px;
+    font-size: 13px;
+    color: #424242;
+    font-style: italic;
+}
+
+.room-type-content {
+    height: 26px;
+    vertical-align: top;
+    padding: 4px 0 0;
+    color: #8a8a8a;
+}
+
+.room-size-content {
+    height: 26px;
+    vertical-align: top;
+    padding: 4px 0 0;
+    color: #c7c7c7;
+}
+
+.flight-block {
+    padding: 0 0 0 10px;
+    border-bottom: 1px solid #f3ede3;
+    background: #fcf9f4;
+}
+
+.alarm-flight {
+    height: 26px;
+    vertical-align: top;
+    padding: 8px 0 6px;
+    color: #ed2125;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.service-block {
+    padding: 0 0 0 10px;
+    border-bottom: 1px solid #f3ede3;
+}
+
+.empty-right-block {
+    height: 26px;
+    vertical-align: top;
+    padding: 8px 0 8px;
+    color: #00599e;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.tourist-block {
+    padding: 0 0 6px 10px;
+    border-bottom: 1px solid #f3ede3;
+    background: #fcf9f4;
+}
+
+.flight-date {
+    height: 26px;
+    vertical-align: top;
+    padding: 3px 0 8px 10px;
+    font-size: 13px;
+    color: #424242;
+    font-style: italic;
+}
+
+.flight-info {
+    height: 26px;
+    vertical-align: top;
+    padding: 4px 0 8px;
+    color: #8a8a8a;
+}
+
+.transfer-name {
+    height: 26px;
+    vertical-align: top;
+    padding: 5px 0 8px 10px;
+    font-size: 13px;
+    color: #424242;
+    font-style: italic;
+}
+
+.transfer-content {
+    height: 26px;
+    vertical-align: top;
+    padding: 6px 0 8px;
+    color: #8a8a8a;
+    font-size: 12px;
+}
+
+.outer-table {
+    padding: 0;
+    font-family: Arial;
+    color: #353b45;
+    background: #fff;
+    max-width: 655px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.outer-body {
+    margin: 0 20px;
+    color: #353b45;
+    background: #f3f3f3;
+    padding: 7px 26px 26px;
+    display: block;
+}
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.simple-step-ttl {
+    margin: 0;
+    font-size: 12px;
+    color: #000;
+    padding: 4px 0;
+}
+
+.simple-step-p {
+    position: relative;
+    padding: 0 0 0 8px;
+    margin: 0;
+    color: #666;
+    font-size: 12px;
+}
+
+.num-step {
+    display: none;
+}
+.status-order {
+    float: right;
+    height: 37px;
+    padding: 0 10px;
+    border: 1px solid #ed2125;
+    position: relative;
+    margin: 0 12px 0 0;
+}
+
+.status-td, .operator-name {
+    padding: 10px;
+}
+
+.logo-row {
+    background: #ed2125;
+    overflow: hidden;
+    padding: 14px 17px 6px 2px;
+}
+
+.operator-row {
+    border: 1px solid #f1ede3;
+    padding: 7px 0 8px 19px;
+    margin: 5px 0 0;
+    color: #0b62a1;
+    overflow: hidden;
+    background: #fff;
+}
+
+.operator-name-href {
+    float: left;
+    font-size: 21px;
+    font-style: italic;
+    text-decoration: none;
+    color: #0b62a1;
+    margin: 5px 0 0;
+}
+
+.operator-logo {
+    vertical-align: top;
+    position: relative;
+    top: -1px;
+}
+
+.operator-status-logo {
+    float: left;
+    margin: 7px 0 0 0;
+}
+.operator-status {
+    color: #ed2125;
+    font-size: 12px;
+    height: 32px;
+    text-align: center;
+    margin-left: 30px;
+    display: block;
+    padding-top: 4px;
+}
+.tour-price-name {
+    font-size: 12px;
+    color: #a6a6a5;
+    margin: 0 0 2px;
+}
+
+.tour-price-p {
+    font-size: 12px;
+    color: #a6a6a5;
+    margin: 0;
+}
+
+.tour-price-rur {
+    font-size: 17px;
+    color: #00599e;
+    font-weight: bold;
+}
+
+.price-inner {
+    padding: 0 13px 0 10px;
+}
+
+.price-middle {
+    float: left;
+}
+
+.price-outer {
+    overflow: hidden;
+    padding: 8px 0 9px;
+    margin: 0 0 0 13px;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.price-description {
+    font-size: 10px;
+    color: #6f6f6f;
+    margin: 3px 0 0 194px;
+    line-height: 12px;
+    position: relative;
+}
+.price-description-logo {
+    position: absolute;
+    top: 0;
+    left: -14px;
+}
+
+.operator-phone {
+    font-size: 10px;
+    font-weight: 100;
+    font-family: Arial;
+    margin: -5px 0 0 30px;
+}
+
+.space-left {
+    padding-left: 10px;
+}
+
+.alternative-mail-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.4em;
+}

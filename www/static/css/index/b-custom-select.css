@@ -1,0 +1,29 @@
+.custom-select-night {
+	width: 127px;float: left;
+	color: #000;
+	margin-right: 12px;
+}
+.custom-select-night .multi .ls-form-inp,
+.custom-select-adult .multi .ls-form-inp, 
+.custom-select-children .multi .ls-form-inp {color: #000; font-weight: bold;} 
+.custom-select-pers {float: left; width: 331px;}
+.custom-select-adult {
+	display: inline-block;
+	width: 160px;
+}
+.custom-select-adult .ls-form-inp { border-radius: 0; padding-right: 5px;}
+.custom-select-children .ls-form-inp { border-radius: 0 3px 3px 0;}
+.custom-select-ticket .ls-form-inp { border-radius: 3px;}
+.custom-select-children {
+	display: inline-block;
+	width: 170px;
+	margin-left: -2px;
+}
+.ls-form-select-pp .selectBox-label {
+	width: 32px;
+}
+.custom-select-ticket { width: 125px; float: left;}
+.tourbook-index .custom-select-children {margin-left: -3px; border-left: 1px solid #EBE5D9;display: inline-block;width: 438px; }
+.tourbook-index .custom-select-children .ls-form-inp { border-radius: 0 3px 3px 0;}
+.tourbook-index .custom-select-adult {border-radius: 0;width: 462px; display: inline-block;}
+.tourbook-index .custom-select-adult .ls-form-inp {border-radius: 0;}

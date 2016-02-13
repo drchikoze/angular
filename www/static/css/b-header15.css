@@ -1,0 +1,259 @@
+/*.header15 { height: 200px; }*/
+.header15-top {
+    position: relative;
+    background: #f13d41;
+    padding: 10px;
+    min-height: 63px;
+}
+
+.header15-hours {
+    display: none;
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 4px;
+
+}
+
+.header15 a.incomplete-request-link {
+    background: url("../i/pen.png") left center no-repeat;
+    padding-left: 20px !important;
+}
+
+.header15-top .header15-hours .hours-larger {
+    font-size: 11px;
+}
+.header15-logo {
+    display: block;
+    width: 220px;
+    height: 43px;
+    background: url(../i/logo2.png) 0 0 no-repeat;
+}
+.mytour-ru .header15-logo {
+    display: block;
+    width: 220px;
+    height: 43px;
+    background: url(../i/logo-mytour.png) 0 0 no-repeat;
+}
+.header15-search {
+    border-radius: 2px;
+    position: relative;
+}
+.header15-phone {
+    display: none;
+    font-size: 9px;
+    line-height: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: White;
+    text-align: center;
+    letter-spacing: 1.30px;
+    border-radius: 2px;
+}
+.header15-phone:hover {background-color: #CF262A;}
+.header15-phone a {color: White; text-decoration:none !important;}
+.header15-search-input {
+    border: 0;
+    width: 100%;
+    font-size: 13px;
+    height: 20px;
+    font-family: 'apercu_pro_bold';
+}
+.header15-logo {
+    margin-bottom: 10px;
+}
+@media screen and (min-width: 350px)  {
+    .header15-phone {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 420px) {
+    .header15-phone {
+        max-width: 100px;
+        position: absolute;
+        top: 36px;
+        right: 10px;
+        display: block;
+        max-height: 24px;
+        overflow: hidden;
+        background: none;
+        padding: 0;
+    }
+    .header15-phone .header15-phone-s {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 760px) {
+    .header15-phone {
+        position: absolute;
+        right: 10px;
+        top: 6px;
+    }
+}
+.header15-bot-login  span {
+    display: none;
+}
+@media screen and (min-width: 390px) {
+    .header15-search-input {
+        font-size: 15px;
+    }
+    .header15-bot-login {
+        padding: 0 10px 0 35px !important;
+    }
+    .header15-bot-login  span {
+        display: inline;
+    }
+    .header15-bot-menu { position: static !important; }
+}
+
+@media screen and (min-width: 710px)  {
+    .header15-logo {
+        position: absolute;
+        margin-bottom: 0;
+        top: 10px;
+        left: 10px;
+    }
+    .header15-search {
+        margin: 0 172px 0 220px;
+        width: auto;
+    }
+}
+
+
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+    .header15-search { margin: 0 245px !important; }
+}
+
+@media screen and (min-width: 760px) {
+    .header15-top {
+        height: 122px;
+        padding: 28px 0 0;
+    }
+    .header15-logo {
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 20px;
+        width: 225px;
+        height: 43px;
+        background: url(../i/logo2.png) 0 0 no-repeat;
+    }
+    .header15-search {
+        display: block;
+        border: 1px solid #fa777a;
+        border-radius: 2px;
+        padding: 15px;
+        margin: 0 445px 0 245px;
+        position: relative;
+    }
+    .header15-phone {
+        display: block;
+        position: absolute;
+        top: 28px;
+        right: 20px;
+        background: #e63337 url(../i/header15-phone.png) no-repeat 8px center;
+        padding: 9px 7px 11px 40px;
+    }
+
+    .header15-hours {
+        display: block;
+    }
+
+    .page_index .header15-top .header15-phone {
+        max-height: 81px !important;
+        background-position: 8px 14px;
+    }
+
+}
+
+.header15-search-field { background: White; margin: 0 80px 0 0; border-radius: 2px; padding: 7px 10px 9px; }
+.header15-search-submit { cursor: pointer; float: right; background: #cf262a; border: 0; font-size: 15px; height: 36px;  font-family: 'apercu_pro_bold'; color: White; width: 70px; text-align: center; border-radius: 2px; padding-bottom: 2px;}
+.header15-phone-s { font-family: 'apercu_pro'; font-size: 21px; line-height: 24px; display: block; letter-spacing: -1px; border-bottom: 1px solid #e7565a; margin: 0 0 5px; padding: 0 0 5px; }
+.header15-phone-s2 { color: #f97d80; }
+.header15-bot { background: #545454; height: 43px; position: relative; padding: 7px 0 0; }
+.header15-bot-menu { position: relative; top: 2px;  vertical-align: middle; color: White; display: inline-block; padding: 0; text-decoration: none; /*position: absolute; top: 12px; left: 20px;*/ font-size: 10px; line-height: 16px;  font-family: 'apercu_pro_bold'; text-transform: uppercase; margin-right: 15px; }
+@media screen and (min-width: 710px) and (max-width: 760px) {
+    .header15-bot-menu {
+        margin-right: 100px;
+    }
+}
+@media screen and (min-width: 760px) {
+    .header15-bot-menu {
+        margin-right: 114px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .header15-bot-d1 {
+        float: left;
+        max-width: 26px;
+    }
+    .header15-bot-menu {
+        margin-left: 15px;
+    }
+}
+.header15-bot-d1 {/*margin: 5px 0 0 245px;*/ vertical-align: middle;  /*overflow: hidden;*/ display: inline-block; font-size: 10px; line-height: 25px;  font-family: 'apercu_pro'; text-transform: uppercase; color: #8b8b8b; }
+
+.header15-bot-login { padding: 0 10px 0 15px; min-height: 27px !important; background: url(../i/header15-bot-login.png) no-repeat 1px center; border: 1px solid White; color: White; display: inline-block; vertical-align: middle;  border-radius: 2px; text-decoration: none; max-width: 180px; overflow: hidden;}
+.header15-bot-login:hover {text-decoration: none;}
+.header15-bot-reg-a { color: White; text-decoration: none; cursor: pointer}
+.header15-bot-d2 { position: absolute; top: 13px; right: 20px; font-size: 12px; line-height: 16px; }
+.header15-bot-d2-a { color: White; text-decoration: none; display: inline-block; margin: 0 17px 0 0; }
+
+.header15-bot-d2-a2 {
+    color: White;
+    text-decoration: none;
+    display: inline-block;
+    /*background: url(../i/header15-bot-d2-a2.png) no-repeat right center;*/
+    padding: 0 10px 0 0;
+}
+.header15-search-response {position: relative; z-index: 1000; top: 0; width: 100%; left: 0}
+.header15-search-response-inner {position: absolute; width: 100%;}
+.header15-search-response-inner .searchbar-form-pp {top: 0; margin-top: 0; left: 0; border: 1px solid #e1e1e1}
+.header15-search-response-inner .searchbar-form-pp-shadow-holder {margin: 0}
+.selected_item { background: #fff9e2;}
+.header15 input {
+    line-height: normal !important;
+}
+.nav > li > a {
+    padding: 10px 8px 10px 7px !important;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+.header15-bot-menu {cursor: pointer;}
+.header15-bot-submenu {
+    background-color: #545454;
+    border: 0;
+    color: #fff;
+    border-radius: 0;
+    top: 41px;
+}
+.header15-bot-submenu li a {
+    color: #fff;
+}
+.header15-bot-submenu a {
+    font: normal normal 400 10px/16px apercu_pro_bold;
+    background-color: #545454;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header15-bot-submenu a:hover {
+    text-decoration: underline;
+}
+
+.header15-bot-menu img {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.header15-bot-menu.short_link {
+    margin-right: 0;
+    width: 20px;
+    height: 16px;
+    background: url(../i/header15-bot-menu.png) left center no-repeat;
+}

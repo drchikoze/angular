@@ -1,0 +1,126 @@
+.simil-hotels-wrap {
+    margin-bottom: 20px;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+.similar-hotel {
+    width: 232px;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    margin: auto;
+}
+.sh-wrap {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.sh-wrap:nth-child(n+2) {
+    display: none;
+}
+@media screen and (min-width: 530px) {
+    .sh-wrap {
+        width: 50%;
+    }
+    .sh-wrap:nth-child(n+2) {
+        display: inline-block;
+    }
+    .sh-wrap:nth-child(5) {
+        display: none;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .sh-wrap {
+        width: 33%;
+    }
+    .sh-wrap:nth-child(5) {
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 1240px) {
+    .sh-wrap {
+        width: 25%;
+    }
+    .sh-wrap:nth-child(5) {
+        display: none;
+    }
+}
+.sh-descr {
+    text-align: left;
+    margin: 5px 13px 13px;
+    position: relative;
+}
+
+.sh-link {
+    color: #f13d41;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    text-overflow: clip;
+    overflow: hidden;
+    display: block;
+    line-height: initial;
+}
+.sh-descr .hp-price-val {
+    text-align: center;
+    width: 138px;
+    margin: 7px auto;
+}
+.sh-img-wrap{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.sh-img-descr{
+    display: block;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .5);
+    padding: 12px;
+    transform: translate(0, 60px);
+    transition: transform .4s linear;
+}
+.sh-img-descr p{
+    line-height: initial;
+}
+.sh-img-descr i{
+    color: #333;
+    padding-right: 3px;
+}
+.sh-img-wrap:hover .sh-img-descr{
+    transform: translate(0, 0);
+}
+.sh-descr-hide {
+    background: url("../../i/hide.png") repeat-y;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 18px;
+    right: -4px;
+}
+.sh-descr {
+    height: 96px;
+}
+p.hp-stars-sim {
+    margin: 0 8px 3px 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: initial;
+}
+.similar-hotel p:first-child + p {
+    margin-left: 0;
+}
+.similar-hotel a.hp-price-val:hover {
+    text-decoration: none;
+}
+.similar-hotel .hp-ttl-ex {
+    white-space: nowrap;
+    overflow: hidden;
+}

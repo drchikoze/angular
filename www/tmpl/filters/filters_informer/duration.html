@@ -1,0 +1,31 @@
+<div class="hbr-widget-line" data-bindonce>
+    <div class="hbr-widget-inp-wrap" data-ng-class="{'hbr-widget-inp-wrap_act' : selectPopup}">
+        <div class="hbr-widget-lbl">
+            <span>Ночи</span>
+        </div>
+        <div class="hbr-widget-field">
+            <a href="javascript:void(0)" class="hbr-widget-inp hbr-widget-modal-trigger" data-ng-click="displaySelectPopup()">
+                <span class="hbr-widget-modal-select-val" tabindex="1" ui:keyboard-navigatable
+                      data-navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}">
+                    {{value | plural:'ночь|ночи|ночей'}}
+                </span>
+                <i class="hbr-widget-icon hbr-widget-btn hbr-widget-icon_list" tabindex="2" ui:keyboard-navigatable
+                   data-navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}"></i>
+            </a>
+        </div>
+    </div>
+    <div class="hbr-widget-modal hbr-widget-modal-angular" data-ng-show="selectPopup">
+        <div class="hbr-widget-modal-top">
+            <a href="#" class="hbr-widget-modal-close" title="Закрыть" data-ng-click="displaySelectPopup()"></a>
+        </div>
+        <div class="hbr-widget-modal-mid hbr-widget-modal-scroll">
+            <div class="hbr-widget-modal-mid-inner">
+                <div class="hbr-widget-modal-tr hbr-widget-modal-select-item"
+                     data-ng-class="{'hbr-widget-modal-select-item_current' : getValues() == item.id}"
+                     data-ng-repeat="item in source" data-ng-click="select(item, true)">
+                    <div class="hbr-widget-modal-key" data-bo-text="item.name | plural:'ночь|ночи|ночей'"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

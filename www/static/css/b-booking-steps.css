@@ -1,0 +1,449 @@
+.reservation-wrap {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.reservation-head {
+}
+
+.reservation-ttl {
+    font-family: "apercu_pro_bold";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reservation-hotel-about {
+    padding-top: 10px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 18px;
+}
+
+.reservation-notification {
+    padding: 10px 15px 10px 35px;
+    margin: 15px 0 20px 0;
+    background: #E6F0F3;
+    position: relative;
+    font-size: 12px;
+    color: #0c6c8c;
+}
+
+.reservation-notification:before {
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: url(../i/icon-i-0C6C8C.png) no-repeat center center;
+    top: 50%;
+    left: 11px;
+    margin-top: -8px;
+}
+
+.reservation-body {
+}
+
+.reservation-inputs {
+    display: table;
+    margin-left: -9px;
+}
+
+.reservation-input {
+    display: table-cell;
+}
+
+.reservation-inp {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: 1px solid #A5A5A5;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 9px;
+    padding: 0 10px;
+    outline: none;
+    height: 31px;
+    width: 161px;
+}
+
+.reservation-pay-box {
+    margin-top: 20px;
+}
+
+.reservation-card {
+    display: inline-block;
+    width: 501px;
+    border-radius: 5px;
+    background: #E5F6ED;
+    float: left;
+}
+
+.reservation-card-head {
+    padding: 15px 0;
+    position: relative;
+}
+
+.reservation-card-head-lock {
+    color: #00a551;
+    font-size: 12px;
+    margin-left: 20px;
+    padding-left: 18px;
+    background: url(../i/icon-lock.png) 0 0 no-repeat;
+
+}
+
+.reservation-card-head-cards {
+    float: right;
+    margin-right: 20px;
+}
+
+.card-dottes {
+    position: absolute;
+    height: 5px;
+    width: 101%;
+    left: -2px;
+    bottom: -4px;
+    background: url(../i/dott2.png);
+}
+
+.reservation-card-body {
+    padding: 0 10px 10px 20px;
+    position: relative;
+}
+
+.revervation-card-body-ttl {
+    font-family: "apercu_pro_bold";
+    margin: 17px 0 15px;
+    font-size: 15px;
+}
+
+.reservation-card-body-table {
+    display: table;
+    width: 100%;
+}
+
+.reservation-card-body-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    padding: 0 10px 10px 0;
+}
+
+.reservation-card-data {
+    position: relative;
+    width: 75px;
+    height: 31px;
+    line-height: 31px;
+    border-radius: 3px;
+    background: #fff;
+    padding: 0 10px;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.reservation-card-cvv-code {
+    position: relative;
+    width: 75px;
+    height: 31px;
+    line-height: 31px;
+    border-radius: 3px;
+    background: #fff;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.reservation-card-data.reservation-card-validaty:after {
+    background: url(../i/icon-list-black.png) no-repeat center center;
+    position: absolute;
+    content: '';
+    width: 9px;
+    height: 9px;
+    top: 50%;
+    right: 10px;
+    margin-top: -5px;
+}
+
+.reservation-card-month-modal, .reservation-card-year-modal {
+    display: none;
+    position: absolute;
+    z-index: 11;
+    background: #fff;
+    width: 75px;
+    text-align: center;
+    box-shadow: 0 6px 5px 3px rgba(0, 0, 0, .2);
+}
+
+.reservation-card-year-modal ul li:hover, .reservation-card-month-modal ul li:hover {
+    background: #f1f1f1;
+}
+
+.reservation-card-year-modal ul li, .reservation-card-month-modal ul li {
+    line-height: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 11px;
+
+}
+
+.reservation-card-year-modal ul li {
+}
+
+.reservation-card-month-modal ul li {
+    text-align: left;
+    padding-left: 4px;
+}
+
+.reservation-card-inp {
+    width: 100%;
+    height: 31px;
+    background: #fff;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.reservation-simple-inp {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    height: 31px;
+    background: #fff;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+
+.reservation-card-footer {
+    padding: 20px;
+    padding-top: 21px;
+    text-align: center;
+}
+
+.reservation-card-form {
+    display: inline-block;
+}
+
+.reservation-card-btn, .reservation-card-btn-paid, .reservation-card-btn-wait {
+    display: inline-block;
+    color: #fff;
+    font-family: 'apercu_pro_light';
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 36px;
+    height: 36px;
+    width: 138px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    background: #E73333;
+    border: none;
+}
+
+.reservation-card-btn-paid {
+    background: #00a551;
+}
+
+.reservation-card-btn-wait {
+    background: #fecb4a;
+}
+
+.reservation-card-footer-privacy {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 2px;
+}
+
+.reservation-card-footer-privacy .reservation-privacy-link:hover {
+    text-decoration: underline;
+}
+
+.reservation-card-footer-privacy .reservation-privacy-link {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: #00a551;
+}
+
+.reservation-prices {
+    margin-left: 521px;
+
+}
+
+.reservation-prices-parts {
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 15px;
+}
+
+.reservation-prices-part .bold {
+    font-family: "apercu_pro_bold";
+}
+
+.reservation-prices span {
+    display: block;
+}
+
+.reservation-prices span span {
+    display: inline;
+}
+
+.reservation-prices-part {
+    margin-top: 2px;
+    font-size: 13px;
+    color: #000;
+    line-height: 1.62;
+}
+
+.reservation-prices-part .bold {
+    font-size: 15px;
+}
+
+.reservation-prices-full .green {
+    font-family: "apercu_pro_bold";
+    font-size: 15px;
+    color: #00a551;
+}
+
+.reservation-prices-full {
+    font-family: 'apercu_pro_light';
+    margin-top: 12px;
+    font-size: 13px;
+    padding-bottom: 15px;
+    line-height: 1.62;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.reservation-prices-course {
+    margin-top: 15px;
+    line-height: 16px;
+    font-size: 11px;
+    color: #999999;
+
+}
+
+.reservation-footer span {
+    display: block;
+}
+
+.reservation-footer {
+    margin-top: 15px;
+    color: #000;
+}
+
+.reservation-footer-ttl {
+    font-family: 'apercu_pro_bold';
+    font-size: 13px;
+}
+
+#reservation-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+#reservation-card-name {
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+    text-transform: none;
+    color: #999;
+}
+
+::-moz-placeholder {
+    text-transform: none;
+    color: #999;
+}
+
+:-moz-placeholder {
+    text-transform: none;
+    color: #999;
+}
+
+:-ms-input-placeholder {
+    text-transform: none;
+    color: #999;
+}
+
+.booking-steps-confirm {
+    padding: 0 10px 20px;
+}
+
+.booking-steps-confirm-p {
+    font-family: "apercu_pro_bold";
+    font-size: 15px;
+    line-height: 20px;
+    color: #000;
+}
+
+.booking-steps-confirm-p + .booking-steps-confirm-p {
+    margin-top: 8px;
+}
+
+.booking-steps-confirm-p_green {
+    color: #00a551;
+}
+
+.booking-steps-confirm-btn {
+    display: inline-block;
+    font-family: "apercu_pro_light";
+    font-size: 10px;
+    line-height: 36px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 37px;
+    padding: 0 12px;
+    border-radius: 3px;
+    background: #00a551;
+    margin-top: 15px;
+}
+
+.booking-steps-confirm-btn:hover {
+    text-decoration: none;
+}
+
+.booking-steps-review {
+    padding: 0 10px;
+}
+
+.booking-steps-review-txtarea {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    width: 100%;
+    height: 100px;
+    padding: 7px 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    resize: none;
+}
+
+.booking-steps-review-submit {
+    display: inline-block;
+    vertical-align: top;
+    font-family: "apercu_pro_bold";
+    font-size: 14px;
+    line-height: 36px;
+    color: #aaa;
+    text-decoration: none;
+    height: 37px;
+    padding: 0 12px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.orig-price {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 12px;
+    color: grey;
+}

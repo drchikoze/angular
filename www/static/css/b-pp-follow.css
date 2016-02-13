@@ -1,0 +1,61 @@
+.pp-follow { display: none; position: absolute; z-index: 51; border: 1px solid #e9e9e9; background: #fcfaf7 url(../i/pp-follow.png) no-repeat center 0; width: 789px; padding: 18px 0 30px; box-shadow: 0px 10px 25px -20px #999; }
+.pp-follow-x { background: url(../i/pp-follow-x.png) no-repeat center; display: block; height: 25px; width: 25px; text-decoration: none; position: absolute; right: -12px; top: -12px; }
+.pp-follow-p { background: url(../i/pp-follow-p.png) no-repeat 0 4px; color: Black; font-size: 13px; line-height: 16px; margin: 0 30px 6px 30px; padding: 0 0 0 16px; }
+.pp-follow-form { margin: 0 165px 6px 97px; }
+.pp-follow-text { font-size: 16px; height: 20px !important; background: transparent; border: 0 !important; width: 295px !important; margin: 37px 0 0; }
+.pp-follow-submit { float: right; cursor: pointer; font-size: 16px; width: 228px; height: 43px; color: White; border: 0; background: transparent; margin: 26px 0 0; font-weight: bolder; text-align: center; padding: 0; }
+.pp-follow-label { color: #0072c2; display: block; position: relative; font-size: 12px; line-height: 16px; margin: 13px 0 0; white-space: nowrap; background: url(../i/pp-follow-label.png) no-repeat; padding: 4px 0 0 21px; cursor: pointer; }
+.pp-follow-label-act { background: url(../i/pp-follow-label-act.png) no-repeat; }
+.pp-follow-chk { position: absolute; visibility: hidden; }
+.pp-follow-man { position: absolute; right: -22px; bottom: 1px; }
+.pp-remove-ttl { margin-top: 10px; font-size: 20px; line-height: 24px; font-weight: bolder; }
+.pp-remove-block { margin-top: 20px; }
+.pp-remove-from-favorites, .pp-remove-from-subscriptions {
+    display: none;
+    position: fixed;
+    top: 53px;
+    left: 50%;
+    margin-left: -395px;
+    width: 790px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 30px;
+    z-index: 51;
+    border: 1px solid #e9e9e9;
+    background: #fcfaf7 url(../i/pp-cheaper.png) no-repeat center bottom;
+    padding: 7px 30px 30px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

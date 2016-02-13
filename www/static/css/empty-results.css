@@ -1,0 +1,179 @@
+.empty-tours a, .hp-price-noresults a {
+    color: #14b21f;
+    text-decoration: none;
+}
+
+.hp-price-noresults a.booking-closed-btn-a {
+    color: #fff;
+    margin: 0 0 0 40%;
+}
+
+.empty-tours a:hover, .hp-price-noresults a:hover {
+    color: #ed2125;
+    text-decoration: none;
+}
+
+.empty-tours {
+    color: #555;
+    text-align: left;
+    font-size: 100%;
+    line-height: 24px;
+}
+
+.empty-tours .but-other-tours h4 {
+    font-size: 20px;
+}
+
+.empty-tours .but-other-tours {
+    font-weight: bold;
+}
+
+.empty-tours .fa-check-circle {
+    line-height: 25px;
+    font-size: 25px;
+    height: 25px;
+}
+
+.empty-tours .fa-question {
+    font-size: 15px;
+}
+
+.empty-tours .other-tour-option {
+    padding-left: 30px;
+}
+
+.empty-tours .otherCity a {
+    color: #007ec7;
+}
+
+.empty-tours a .ok {
+    border-bottom: dotted;
+    border-width: 1px;
+}
+
+.empty-tours .remove-restrictions {
+    color: #bbbbbb;
+    border: 1px solid #cdcdcd;
+    padding: 0px 7px;
+    margin: 6px 30px 8px 0px;
+    display: inline-block;
+}
+
+.empty-tours .remove-restrictions .restriction {
+    color: #555555;
+}
+
+.hp-price-noresults {
+    margin-top: -4px;
+}
+.hp-price-noresults-ttl {
+    font-family: "apercu_pro_bold";
+    font-size: 15px;
+    line-height: 20px;
+}
+.hp-price-noresults-p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #999;
+}
+.hp-price-noresults-alt {
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 3px;
+}
+.hp-price-noresults-alt-ttl {
+    font-family: "apercu_pro_bold";
+    font-size: 20px;
+    line-height: 26px;
+}
+.hp-price-noresults-alt table {
+    margin: 14px 0 11px;
+    border-top: 1px solid #e5e5e5;
+    width: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+.hp-price-noresults-alt table tr {
+    border-bottom: 1px solid #e5e5e5;
+}
+.hp-price-noresults-alt table tr:after {
+    content: "";
+    display: table-cell;
+    width: 100%;
+}
+.hp-price-noresults-alt table th {
+    height: 38px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: normal;
+    color: #999;
+    white-space: nowrap;
+    padding: 0 15px;
+}
+.hp-price-noresults-alt table td {
+    height: 38px;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0 15px;
+}
+.hp-price-noresults-alt table th:first-child,
+.hp-price-noresults-alt table td:first-child {text-align: left; padding-left: 0;}
+.hp-price-noresults-alt table td span {color: #bbb;}
+.hp-price-green {}
+.hp-price-result-none {
+    background: url(/static/i/icon-cancel-grey.png) 50% 50% no-repeat;
+}
+.hp-price-noresults-alt-list {
+    font-family: "apercu_pro_bold";
+    font-size: 15px;
+    line-height: 22px;
+    margin: 6px 0 14px;
+}
+.hp-price-noresults-alt-a {
+    display: inline-block;
+    color: #00a551;
+}
+.hp-price-noresults-alt-sep {
+    display: inline-block;
+    color: #eaeaea;
+    width: 14px;
+    text-align: center;
+}
+.hp-price-noresults-notice {
+    font-size: 11px;
+    line-height: 22px;
+    color: #bbb;
+    padding: 6px 0 8px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.hp-price-green { color: #00a551; }
+
+.search-results-empty-text {
+    font-size: 110%;
+}
+
+.search-results-empty-phone {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.empty-tours a.booking-closed-btn-a, a.booking-closed-btn-a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-results-empty-send-request {
+    width: 100%;
+    margin: 10px 0  5px 0;
+    float: left;
+}
+
+.search-results-empty-send-request .booking-closed-btn-a {
+    margin: 10px 40%;
+}
+
+.hotel-page .search-results-empty-text .search-results-empty-send-request .booking-closed-btn-a {
+    margin: 10px 40%;
+}

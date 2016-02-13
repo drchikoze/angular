@@ -1,0 +1,13 @@
+<div bindonce class="ls-form-select multi req">
+    <div class="ls-form-select-lbl w100">Вылет</div>
+    <a href="javascript:void(0);" class="ls-form-inp datepicker-dd-link ls-form-inp_last" id="datepicker-wrap1">
+        <span tabindex="4" class="datepicker-val" ng-click="showDf()" ng-focus="showDf()"  sly-prevent-evaluation-when-hidden
+              sly-show="date.from.exists">{{date.from.dd}} {{date.from.MM_inline}} {{date.from.yy}}</span><span
+                    class="datepicker-day grey" sly-prevent-evaluation-when-hidden
+                        sly-show="date.from.exists">, {{date.from.D}}</span>
+        <span class="datepicker-val" ng-click="showDf()" sly-prevent-evaluation-when-hidden sly-show="!date.from.exists">
+            все</span>
+        <input type="text" dp="from" bo-value="df" class="uni-form-calend-inp" />
+        <span class="ls-form-inp-btn" ng-click="showDf()"></span>
+    </a>
+</div>

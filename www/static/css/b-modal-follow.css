@@ -1,0 +1,748 @@
+.modal-window.modal-follow, .tourbook-form .modal-window.modal-follow {
+    max-width: 100%;
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 0 10px #696969;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    position: fixed;
+    top: 0;
+    z-index: 105;
+    line-height: normal;
+    font-size: 12px;
+    font-weight: normal;
+    color: #353b45;
+    display: none;
+    left: 0;
+    margin-left: 0;
+}
+
+.modal-follow .follow-pp-tabs {
+    background: #F2F2F2;
+    width: 100%;
+    height: 42px;
+    padding: 0;
+}
+
+.modal-follow .follow-pp-tab {
+    margin-left: -3px;
+    font-family: "apercu_pro_bold";
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 6px;
+    height: 100%;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.modal-follow .follow-pp-buy-form-item {
+    position: relative;
+    vertical-align: top;
+    display: block;
+}
+
+[name=form-tour-watch] {
+    background: #fff;
+}
+
+.modal-follow .follow-pp-watch-form {
+    /*display: table;*/
+    width: 100%;
+    font-size: 14px;
+    line-height: 31px;
+    background: #fff;
+    padding: 0;
+}
+
+.modal-follow .follow-pp-buy-ttl {
+    padding-bottom: 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.modal-follow .follow-pp-buy-footer {
+    padding: 0 0 8px;
+    text-align: center;
+}
+
+.modal-follow .follow-pp-buy-form {
+    /*display: table;*/
+    width: 100%;
+    font-size: 14px;
+    background: #fff;
+    padding: 0;
+}
+
+.modal-follow .follow-pp-buy-body {
+    padding: 10px 20px 5px;
+}
+
+.modal-follow .follow-pp-head {
+    position: relative;
+    padding: 10px 20px 1px;
+    background: #f2f2f2;
+}
+.modal-follow .follow-pp-btn {
+    cursor: pointer;
+    background: #f13d41;
+    padding: 9px 0 10px;
+    margin: 0 10px;
+    font-family: 'apercu_pro_bold';
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    border-radius: 2px;
+    display: block;
+}
+
+.modal-follow .follow-pp-two-buttons .follow-pp-btn {
+    margin: 10px;
+}
+
+.modal-follow .follow-pp-buy-head {
+    position: relative;
+    padding: 10px 0;
+    margin: 0 20px;
+    border-bottom: 1px dashed #FA917A;
+}
+
+.modal-follow .follow-pp-buy-inp {
+    height: 31px;
+    padding: 0 15px;
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid #AEAEAE;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #666;
+}
+
+.modal-follow .follow-pp-buy-form-inp {
+    height: 31px;
+    padding: 0 15px;
+    width: 100%;
+    margin-top: 5px;
+    outline: none;
+    border: 1px solid #AEAEAE;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #666;
+}
+
+.modal-follow .follow-pp-watch-promo-partners {
+    padding: 12px 0 3px 0;
+    border-width: 1px 0;
+    border-style: dashed;
+    border-color: #FBA08C;
+    display: none;
+}
+
+.modal-follow .follow-pp-watch {
+    display: block;
+    padding: 0 10px;
+}
+
+.modal-follow .follow-pp-watch-form-item {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    padding-bottom: 0;
+}
+
+.modal-follow .follow-pp-watch-promo {
+    padding: 5px 0;
+}
+
+.follow-pp-body {
+    background: #fff;
+}
+
+.modal-follow .follow-pp-watch-form-inp {
+    height: 31px;
+    padding: 0 15px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #AEAEAE;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #666;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.modal-follow .follow-pp-watch-two-step {
+    padding-top: 0;
+    display: none;
+}
+
+.modal-follow .follow-pp-two-body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.modal-follow .follow-pp-two-item {
+    border-bottom: 1px dashed #19C26C;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.modal-follow .follow-pp-two-body-text {
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 3px;
+}
+
+.modal-follow .follow-pp-two-buttons {
+    padding-top: 0px;
+    text-align: center;
+}
+
+.modal-follow .follow-pp-two-ttl {
+    font-family: "apercu_pro_bold";
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.modal-follow .follow-pp-buy-two-step {
+    padding-top: 0px;
+    display: none;
+}
+
+.follow-pp-head .hp-ttl-h1 {
+    font-size: 24px;
+}
+
+.modal-follow .follow-pp-watch-promo-text {
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 0;
+}
+
+.modal-follow .follow-pp-watch-promo-footer {
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.modal-follow .follow-pp-buy-ttl {
+    display: none;
+}
+
+@media screen and (min-width: 540px) {
+    .modal-window.modal-follow, .tourbook-form .modal-window.modal-follow {
+        left: 50%;
+        margin-left: -260px;
+        top: 40px;
+    }
+    .modal-follow .follow-pp-buy-ttl {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .follow-pp-two-body-text {
+        display: none;
+    }
+}
+
+@media screen  and (min-width: 776px) {
+    .modal-window.modal-follow, .tourbook-form .modal-window.modal-follow  {
+        left: 50%;
+        bottom: auto;
+        width: 776px;
+        height: auto;
+        top: 50px;
+        margin-left: -387px;
+    }
+
+    .modal-follow .follow-pp-watch-promo-footer {
+        padding-top: 16px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .modal-follow .follow-pp-watch-promo-text {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 14px;
+    }
+
+    .modal-follow .follow-pp-two-buttons .follow-pp-btn {
+        margin: 0 10px;
+    }
+
+    .modal-follow .follow-pp-two-ttl {
+        font-family: "apercu_pro_bold";
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .modal-follow .follow-pp-two-buttons {
+        padding-top: 32px;
+    }
+
+    .modal-follow .follow-pp-two-body-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .modal-follow .follow-pp-two-item {
+        padding-bottom: 26px;
+        margin-bottom: 19px;
+    }
+
+    .modal-follow .follow-pp-two-body {
+        padding-top: 22px;
+        padding-bottom: 55px;
+        width: 520px;
+        margin: 0 auto;
+    }
+
+    .modal-follow .follow-pp-watch-two-step {
+        padding-top: 40px;
+    }
+
+    .modal-follow .follow-pp-tabs {
+        padding: 0 20px;
+    }
+
+    .modal-follow .follow-pp-tab {
+        padding: 0 10px;
+    }
+
+    .modal-follow .follow-pp-buy-form-item {
+        display: table-cell;
+    }
+
+    .modal-follow .follow-pp-watch-form {
+        padding: 20px 20px 0;
+    }
+
+    .modal-follow .follow-pp-buy-ttl {
+        font-size: 14px;
+        line-height: 22px;
+        padding-bottom: 9px;
+    }
+
+    .modal-follow .follow-pp-buy-footer {
+        padding: 20px 0;
+    }
+
+    .modal-follow .follow-pp-buy-form {
+
+        padding: 20px 20px 0;
+    }
+
+    .modal-follow .follow-pp-buy-body {
+        padding: 16px 20px 5px;
+    }
+
+    .modal-follow .follow-pp-head {
+        padding: 14px 20px 15px;
+    }
+
+    .modal-follow .follow-pp-btn {
+        margin: 0 7px;
+        display: inline-block;
+        width: 155px;
+    }
+
+    .modal-follow .follow-pp-buy-head {
+        padding: 17px 0 20px;
+    }
+
+    .modal-follow .follow-pp-buy-inp {
+        width: 250px;
+        margin-top: 0;
+    }
+
+    .modal-follow .follow-pp-buy-form-inp {
+        width: 250px;
+        margin-top: 0;
+    }
+
+    .modal-follow .follow-pp-watch-promo-partners {
+        display: block;
+    }
+
+    .modal-follow .follow-pp-watch-form-item {
+        display: table-cell;
+    }
+
+    .modal-follow .follow-pp-watch {
+        padding: 0;
+    }
+
+    .modal-follow .follow-pp-watch-form-item {
+        padding-bottom: 20px;
+    }
+
+    .modal-follow .follow-pp-watch-promo {
+        padding: 17px 20px 0;
+    }
+
+    .modal-follow .follow-pp-buy-two-step {
+        padding-top: 40px;
+        display: none;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .modal-follow .follow-pp-buy-ttl {
+        display: none;
+    }
+
+}
+.modal-follow .modal-window-top {
+    height: auto;
+    padding: 0;
+}
+.modal-follow .modal-window-mid {
+
+}
+.modal-follow .follow-pp-watch-one-step {
+    display: block;
+}
+
+
+.modal-follow .follow-pp-buy-one-step {
+      display: block;
+  }
+
+.modal-follow .follow-pp-buy {
+    display: none;
+}
+
+.modal-follow .follow-pp-ttl-stars {
+    background: url(/static/i/sprite-hotel-info.png) 0 0 no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 10px;
+}
+
+.modal-follow .follow-pp-ttl-info {
+     margin-left: 10px;
+     font-size: 12px;
+     line-height: 12px;
+     padding: 0px 0 0 0px;
+     display: inline-block;
+     padding-left: 20px;
+     color: #666666;
+     cursor: pointer;
+     background: url(/static/i/crown.png) no-repeat left 1px;
+     display: inline-block;
+ }
+.modal-follow .follow-pp-ttl {
+    padding-top: 8px;
+    color: #535353;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.modal-follow .follow-pp-ttl span {
+    color: #6e6d6d;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.modal-follow .follow-pp-price {
+    display: inline-block;
+    font-family: "apercu_pro_bold";
+    font-size: 25px;
+    line-height: 20px;
+    color: #f13d41;
+    font-weight: normal;
+}
+
+.modal-follow .follow-pp-price-date {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #000;
+}
+
+.modal-follow .follow-pp-close {
+    background: url(/static/i/close-icon-v2.png) no-repeat 7px 9px;
+    position: absolute;
+    right: 22px;
+    top: 18px;
+    width: 30px;
+    height:30px;
+    line-height: 30px;
+    color: #86888F;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.modal-follow .follow-pp-tab:first-child {margin-left: 0;}
+.modal-follow .follow-pp-tab-body {
+    padding-top: 10px;
+    color: #777777;
+}
+.modal-follow .follow-pp-tab.active {
+    background: #fff;
+    border-radius: 5px 5px 0 0;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.follow-pp-tab.active .follow-pp-tab-body {
+    padding-bottom: 5px;
+    color: #19c26c;
+    border-bottom: 4px solid #19C26C;
+}
+.modal-follow .follow-pp-tab.active:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.modal-follow .follow-pp-watch-promo-text span {font-weight: bold;}
+
+.modal-follow .follow-pp-watch-promo-body {
+    display: table;
+    width: 100%;
+    padding-bottom: 22px;
+}
+.modal-follow .follow-pp-watch-promo-item {
+    width: 30%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.modal-follow .follow-pp-watch-promo-footer a {
+    text-decoration: none;
+    color: #f13d41;
+    cursor: pointer;
+}
+.modal-follow .follow-pp-watch-promo-footer a:hover {text-decoration: underline;}
+
+.modal-follow .follow-pp-watch-form-row {
+    display: block;
+    padding-top: 10px;
+}
+.modal-follow .follow-pp-watch-form-row:first-child {
+    padding-top: 0;
+}
+
+.modal-follow .follow-pp-watch-form-item:first-child {
+    width: 220px;
+}
+
+.modal-follow .follow-pp-watch-form-inp.error,
+.modal-follow .follow-pp-buy-inp.error ,
+.modal-follow .follow-pp-buy-form-inp.error {
+    color: #c83831;
+    border: 1px solid #c83831;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.follow-pp-watch-form-inp.error + .follow-pp-form-error,
+.follow-pp-buy-inp.error + .follow-pp-form-error,
+.follow-pp-buy-form-inp.error + .follow-pp-form-error {
+    display: block;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.modal-follow .follow-pp-form-error {
+    display: none;
+    position: absolute;
+    min-width: 204px;
+    left: 265px;
+    top:-3px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c83831;
+}
+.modal-follow .follow-pp-watch-form-list {
+    height: 31px;
+    line-height: 29px;
+    padding: 0 15px;
+    width: 250px;
+    outline: none;
+    border: 1px solid #AEAEAE;
+    background: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+    position: relative;
+}
+.modal-follow .follow-pp-watch-form-list:after {
+    content: "";
+    position: absolute; top: 0; right: 0;
+    width: 26px; height: 100%;
+    background: url(/static/i/arr-000000.gif) 50% 50% no-repeat;
+}
+.modal-follow .follow-pp-watch-list-hidden {
+    display: none;
+    position: absolute;
+    top: 30px;
+    width: 250px;
+    left: 0;
+    background: #fff;
+    line-height: 31px;
+    border: 1px solid transparent;
+    border-top: 1px solid #eee;
+    border-radius:0 0 3px 3px;
+    box-shadow: 0 4px 3px 1px rgba(0,0,0,.3);
+}
+.modal-follow .follow-pp-watch-list-hidden ul {}
+.modal-follow .follow-pp-watch-list-hidden ul li {
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.modal-follow .follow-pp-watch-form-list.active {
+    border-radius: 3px 3px 0 0;
+    border: 1px solid transparent;
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,.3);
+}
+.follow-pp-watch-form-list.active + .follow-pp-watch-list-hidden {
+    display: block;
+}
+.modal-follow .follow-pp-watch-list-hidden ul li:hover {
+    background: #fafafa;
+}
+.modal-follow .follow-pp-watch-footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.follow-pp-btn a {
+    color: #fff;
+}
+.follow-pp-btn a:hover {
+    text-decoration: none;
+}
+
+.modal-follow .follow-pp-btn_grey {
+    background: #626262;
+}
+.modal-follow .follow-pp-two-success {
+    text-align: center;
+}
+
+.modal-follow .follow-pp-two-ttl span {display:block;   text-align: center;}
+
+.modal-follow .follow-pp-two-ttl2 {
+    padding-top: 8px;
+    font-size: 14px;
+    line-height: 18px;
+}
+.modal-follow .follow-pp-two-ttl2 a {
+    color: #c83831;
+    text-decoration: none;
+}
+
+.modal-follow .follow-pp-two-body-text2 {
+    padding-top: 8px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+.modal-follow .follow-pp-two-body-text2 a {
+    color: #c83831;
+    text-decoration: none;
+}
+
+.modal-follow .follow-pp-buy-inp-wrap {
+    display: inline-block;
+    position: relative;
+}
+
+.modal-follow .follow-pp-buy-body-text {
+    font-family: "apercu_pro_bold";
+    font-size: 17px;
+    line-height: 24px;
+}
+.modal-follow .follow-pp-two-body-text a,
+.modal-follow .follow-pp-buy-body-text a {color: #f13d41;}
+.modal-follow .follow-pp-buy-body-checkboxes {
+    padding-top: 9px;
+}
+.modal-follow .follow-pp-checkbox-body {
+    vertical-align: top;
+    padding-bottom: 9px;
+}
+.modal-follow .follow-pp-checkbox {
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    float: left;
+}
+.modal-follow .follow-pp-label {
+    vertical-align: top;
+    display: block;
+    margin-left: 26px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.modal-follow .follow-pp-label-desc {
+    padding-top: 3px;
+    display: block;
+    color: #6b6b6b;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.modal-follow .follow-pp-buy-form-item:first-child {
+    width: 272px;
+}
+.modal-follow .follow-pp-buy-item-desc {
+    display: block;
+    font-size: 12px;
+    color: #8a8989;
+}
+
+.modal-follow .follow-pp-buy-form-check {
+    padding-top: 10px;
+    display: block;
+}
+.modal-follow .follow-pp-buy-form-check label {
+    vertical-align: top;
+    padding-top: 1px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 11px;
+}
+
+.hp-top-hotel-rating {display: inline-block; vertical-align: middle;font-family: "apercu_pro_bold";font-size: 13px;line-height: 18px;height: 18px;color: #00a551;padding-left: 17px;margin-right: 8px;background: url(../i/icon-crown-green.png) 0 4px no-repeat;}
+
+.modal-follow .hp-top-hotel-likes {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #00A551;
+    background: transparent url("../i/green-hand.png") no-repeat scroll 0px 3px;
+    padding-left: 17px;
+    margin-right: 8px;
+    line-height: 20px;
+}
+
+.modal-follow .hp-stars {
+    margin: 0px 8px 3px 0px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}

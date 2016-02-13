@@ -1,0 +1,223 @@
+.tourbook-form .modal-window-new-request.modal, .common-request .modal-window-new-request.modal {
+    background-color: #fff;
+    width: 650px;
+    height: 530px;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 30px #777;
+    box-shadow: 0 0 30px #777;
+    position: fixed;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    display: none;
+}
+
+@media (max-width: 650px) {
+    .tourbook-form .modal-window-new-request.modal, .common-request .modal-window-new-request.modal {
+        background-color: #fff;
+        position: absolute;
+        top: 160px;
+        width: 100%;
+        height: 700px;
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-box-shadow: 0 0 30px #777;
+        box-shadow: 0 0 30px #777;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 500;
+        display: none;
+    }
+
+    .modal-window-new-request .m-booking-bot {
+        position: absolute;
+        bottom: 25px;
+    }
+}
+
+
+
+.popup-block-wrapp {
+    background-color: rgba(255,255,255,.5);
+    width: 100%;
+    max-width: 1260px;
+    height: 100%;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.modal-window-new-request .modal-window-close-new-request{
+    background-image: url('../i/close-new-request.png');
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    cursor: pointer;
+}
+.modal-window-new-request .modal-window-ttl-new-request {
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: arial;
+    color: #cf262a;
+    border-bottom: 1px solid #cf262a;
+    padding: 20px 26px;
+
+}
+.modal-window-new-request .icon-list-new-request {
+    font-family: Arial;
+    font-size: 14px;
+    margin: 23px 30px 0;
+}
+.modal-window-new-request .icon-list-new-request i {
+    color: #00a551;
+    font-size: 17px;
+    padding-right: 7px;
+    float: left;
+}
+.modal-window-new-request .icon-list-new-request span{
+    display: block;
+}
+.modal-window-new-request .form-wrap {
+    width: 100%;
+    padding: 20px 25px;
+}
+
+.modal-window-new-request .new-request-modal-step2 .form-wrap {
+    padding: 0px 25px;
+}
+
+.modal-window-new-request .floatlabel-wrapper input {
+    width: 100%;
+    height: 47px;
+    font-size: 17px;
+    font-family: arial;
+    text-indent: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 0;
+}
+.modal-window-new-request .floatlabel-wrapper {
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+.modal-window-new-request label.label-floatlabel {
+    font-family: arial;
+    font-weight: normal !important;
+    padding: 6px 3px;
+    color: #00a551 !important;
+}
+.modal-window-new-request .floatlabel.active-floatlabel{
+    border: 1px solid #00a551;
+}
+
+.modal-window-new-request textarea.floatlabel.textarea {
+    width: 100%;
+    height: 65px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 17px;
+    text-indent: 8px;
+    padding: 7px 0 0 0;
+}
+.modal-window-new-request a.popup-btn {
+    color: #fff;
+    background: #f13d41;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: arial;
+    padding: 12px 20px;
+    border-radius: 4px;
+    float: right;
+    display: block;
+    text-decoration: none;
+}
+.modal-window-new-request a.popup-btn:hover{
+    text-decoration: none;
+}
+.modal-window-new-request a.popup-link {
+    font-family: arial;
+    color: #aaa;
+    font-size: 12px;
+    text-decoration: underline;
+    line-height: 38px;
+}
+.modal-window-new-request .submit-block {
+    margin: 12px 0;
+}
+.modal-window-new-request .form-wrap p.new-request-p {
+    color: #aaa;
+    font-family: arial;
+    font-size: 11px;
+    display: block;
+    margin-top: 14px;
+}
+.modal-window-new-request .form-wrap p.new-request-p a{
+    color: #666;
+    text-decoration: underline;
+}
+.hidden{
+    display: none;
+}
+
+.new-request-modal-step2 {
+    display: none;
+}
+
+.modal-window-new-request .m-booking-bot {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    width: 600px;
+}
+.modal-window-new-request .m-booking-done {
+    padding: 0 !important;
+}
+
+.modal-text-request-title-step-2 {
+    display: none;
+}
+.modal-window-new-request.modal.modal_phone_callback {
+    background-color: #fff;
+    width: 500px;
+    height: 350px;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 30px #777;
+    box-shadow: 0 0 30px #777;
+    position: fixed;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    display: none;
+}
+
+.modal-window-new-request.modal_phone_callback .form-wrap {
+    float: left;
+}
+
+.phone_callback_manager_text span {
+    color: #999;
+}
+
+.modal-window-new-request.modal.modal_common_request .select2-chosen p {
+    overflow: hidden;
+    max-width: 550px;
+}

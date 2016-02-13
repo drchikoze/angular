@@ -1,0 +1,65 @@
+/* скрываем оригинальный виджет - чтобы не было два ярлыка на экране*/
+#jivo_chat_widget {
+    display: none;
+}
+
+/* стиль по умолчанию - для оффлайн сообщений, если никого нет в онлайне */
+#jivo_custom_widget {
+    z-index: 300000;
+    cursor: pointer;
+}
+
+#jivo_custom_widget:hover {
+
+}
+
+/* если есть операторы в онлайне - показываем другой ярлык*/
+
+.question-bogie {
+    display: block;
+    position: fixed;
+    top: 58%;
+    margin-top: -57px;
+    width: 80px;
+    height: 115px;
+    background: #11b361 url(../static/i/icon-round-question-fff.png) 50% 16px no-repeat;
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding-top: 47px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.question-bogie-holder {
+    position: absolute;
+    right: -20px;
+}
+
+.question-bogie-inner {
+    font-family: "apercu_pro_light";
+    font-size: 10px;
+    line-height: 14px;
+    color: #fff;
+}
+
+.question-bogie:hover {
+    text-decoration: none;
+    box-shadow: 0 0 5px #969696;
+}
+
+@media screen and (max-width: 1475px) {
+    .question-bogie {
+        width: 20px;
+        height: 20px;
+        background: url(../static/i/icon-round-question-green.png);
+        padding: 0;
+    }
+
+    .question-bogie-holder {
+        right: 10px;
+    }
+
+    .question-bogie-inner {
+        display: none;
+    }
+}

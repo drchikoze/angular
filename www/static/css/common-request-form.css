@@ -1,0 +1,48 @@
+.modal_common_request .select2-container {
+    padding: 0;
+    height: 33px;
+    width: 100%;
+}
+
+.modal_common_request .select2-container .select2-choice  {
+    border-radius: 0;
+    background-image: none;
+    height: 33px;
+    line-height: 33px;
+    font-size: 13px;
+}
+
+.modal_common_request .select2-choice .select2-arrow {
+    background: transparent;
+}
+
+.modal_common_request .select2-container .select2-choice .select2-arrow {
+    border-radius: 0;
+    background: none;
+}
+
+.modal_common_request .select2-chosen p {
+    margin-top: 3px;
+}
+
+.modal_common_request .success {
+    color: #00a551;
+}
+
+.modal_common_request i.success {
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.modal_common_request .paragraph {
+    display: inline-block;
+}
+
+.select2-results .fa, .select2-chosen .fa {
+    color: #00a551;
+    margin-left: 5px;
+}
+
+.modal_common_request p:first-child + p {
+    margin-left: 0;
+}

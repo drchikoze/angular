@@ -1,0 +1,40 @@
+.page_index .header15 { height: 165px; }
+.page_index .header15-top { height: 122px; position: relative; background: #f13d41; padding: 28px 0 0; }
+.page_index .header15-logo { display: block; position: absolute; top: 40px; left: 20px; width: 225px; height: 43px; background: url(/static/i/logo2.png) 0 0 no-repeat;}
+.page_index.mytour-ru .header15-logo { display: block; position: absolute; top: 40px; left: 20px; width: 225px; height: 43px; background: url(/static/i/logo-mytour.png) 0 0 no-repeat;}
+.page_index .header15-search { border: 1px solid #fa777a; border-radius: 2px; padding: 15px; margin: 0 445px 0 245px; }
+.page_index .header15-search-field { background: White; margin: 0 80px 0 0; border-radius: 2px; padding: 7px 10px 9px; }
+.page_index .header15-search-input { border: 0; width: 100%; font-size: 14px; height: 20px; font-family: 'apercu_pro_bold'; }
+.page_index .header15-search-submit { cursor: pointer; float: right; background: #cf262a; border: 0; font-size: 15px; height: 36px;  font-family: 'apercu_pro_bold'; color: White; width: 70px; text-align: center; border-radius: 2px; padding-bottom: 2px;}
+.page_index .header15-phone {  max-height: 68px !important; font-size: 9px; line-height: 13px; text-transform: uppercase; display: block; position: absolute; top: 28px; right: 20px; text-decoration: none; color: White; text-align: center; letter-spacing: 1.30px; background: #e63337 url(/static/i/header15-phone.png) no-repeat 8px center; padding: 9px 7px 11px 40px; border-radius: 2px; }
+.page_index .header15-phone:hover {background-color: #CF262A;}
+.page_index .header15-phone-s { font-family: 'apercu_pro'; font-size: 21px; line-height: 24px; display: block; letter-spacing: -1px; border-bottom: 1px solid #e7565a; margin: 0 0 5px; padding: 0 0 5px; }
+.page_index .header15-phone-s2 { color: #f97d80; }
+.page_index .header15-bot { background: #545454; height: 43px; position: relative; padding: 7px 0 0; }
+.page_index .header15-bot-menu { color: White; display: inline-block; padding: 0; text-decoration: none; position: relative; top: 2px; font-size: 10px; line-height: 16px;  font-family: 'apercu_pro_bold'; text-transform: uppercase; }
+.page_index .header15-bot-d1 { /*margin: 5px 0 0 245px;*/ font-size: 10px; line-height: 25px;  font-family: apercu_pro, Arial, sans-serif; text-transform: uppercase; color: #8b8b8b; }
+.page_index .header15-bot-login { background: url(/static/i/header15-bot-login.png) no-repeat 1px center; border: 1px solid White; color: White; display: inline-block; padding: 0 10px 0 15px; border-radius: 2px; text-decoration: none; }
+.page_index .header15-bot-login:hover {text-decoration: none;}
+.page_index .header15-bot-reg-a { color: White; text-decoration: none; }
+.page_index .header15-bot-d2 { position: absolute; top: 13px; right: 20px; font-size: 12px; line-height: 16px; }
+.page_index .header15-bot-d2-a { color: White; text-decoration: none; display: inline-block; margin: 0 17px 0 0; }
+.page_index .header15-bot-d2-a2 { color: White; text-decoration: none; display: inline-block; background: url(/static/i/header15-bot-d2-a2.png) no-repeat right center; padding: 0 10px 0 0; }
+.selected_item { background: #fff9e2;}
+
+@media screen and (max-width: 1200px) {
+    .page_index .header15-search { margin: 0 245px; }
+}
+.navbar-collapse {
+    position: relative;
+    z-index: 101;
+    background-color: #545454;
+}
+
+.header15-bot-menu img {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.header15-bot-menu.short_link {
+    margin-right: 0;
+}

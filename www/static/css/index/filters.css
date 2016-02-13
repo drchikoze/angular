@@ -1,0 +1,179 @@
+.page_index .ls-form-select-pp { position: absolute; left: -5px; top: 27px; z-index: 110; width: 100%; margin-top: 5px;overflow: hidden; padding: 0 5px 5px 5px; -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;}
+.page_index .ls-form-select-pp-inner {background: #fff;box-shadow: 0 0 5px #bbb; border-top: 1px solid #F5F0E4; }
+.page_index .ls-form-list {position: relative;}
+
+/*.page_index .ls-form {*/
+    /*padding: 10px;*/
+/*}*/
+.page_index .ls-form .ls-form-select-lbl {
+    width: 69px;
+    text-align: left;
+}
+.page_index .ls-form-inner-bg { background: White; padding: 5px; border-radius: 3px; }
+.page_index .ls-form-cell {width: 175px;}
+/*.page_index .ls-form .ls-form-inp {width: 105px;}*/
+.page_index .ls-form .ls-form-reset {
+    font-size: 11px;
+    line-height: 15px;
+    padding: 0 0 0 14px;
+    color: #a9a9a9;
+    display: inline-block;
+    background: url(../../i/x.png) no-repeat 0 2px;
+    text-decoration: none;
+    margin: 9px 0 0;
+    float: left;
+    width: auto;
+    height: auto;
+}
+.page_index .ls-form .ls-form-reset:hover {text-decoration: underline;}
+.page_index .ls-form-line.ls-form-submit {padding: 0 5px 15px 15px; text-align: right; border-bottom: 1px solid White;}
+.page_index .ls-form-btn.find {
+    background: #ee5e61;
+    color: White;
+    line-height: 33px;
+    padding: 0 10px;
+    font-family: apercu_pro, Arial, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    text-decoration: none !important;
+    display: inline-block;
+}
+.page_index .side-filter-history {padding: 10px 0 1px 15px; line-height: 15px;}
+.page_index .side-filter-history-a {color: #a9a9a9; font-size: 11px; line-height: 15px; text-decoration: none;}
+.page_index .side-filter-history-a:hover {text-decoration: underline;}
+
+.page_index .custom-select-children {margin-left: 0}
+.page_index .child-age-table td {vertical-align: top; width: 105px}
+
+.page_index .ls-form-room-size .ls-form-select-pp {width: 112%;}
+.page_index .ls-form-line {border: 1px solid #e5e5e5; border-radius: 2px;overflow: hidden; -webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;}
+/*.page_index .ls-form-inp {position: relative;background: #fff; border: 0;  display: block; float: left; height: 33px; margin-right: 1px; text-decoration: none; padding: 0 0 0 3px; font-size: 12px;}*/
+
+.page_index .ls-form-cell .uni-form-dd-cnt2 {display: none;}
+.page_index .ls-form-cell .uni-form-dd_active2 .uni-form-dd-cnt2 {display: block;}
+
+
+.page_index .ls-form-select-lbl {float: left; background: transparent; padding-left: 5px; padding-right: 0; border-radius: 3px 0 0 3px; color: #999; text-align: center;}
+.page_index .ls-form-select.active .ls-form-select-lbl {border-radius: 3px 0 0 0;}
+.page_index .ls-form-select.active .ls-form-inp {border-radius: 0 3px 0 0;}
+.page_index .ls-form-select-pp {overflow: hidden; -webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box; display: block; clear: both;}
+.page_index .ls-form-select-pp-inner {background: #fff; border-top: 1px solid #F5F0E4; }
+.page_index .ls-form-list {position: relative;}
+
+.page_index .ls-form .ls-form-inp.child-age {width: 90px; border-radius: 3px}
+.ls-no-float.auth-input {width: 75%;margin-left: 24%}
+.page_index .ls-form-select-lbl-2 { background: #f5f0e4; padding: 0 5px; border-radius: 3px 0 0 3px; color: #999; margin-bottom: 12px}
+
+.page_index .ls-form-line + .ls-form-line {
+    padding-top: 0;
+    margin-top: 5px;
+}
+.page_index .multi .ls-form-inp-btn {
+    background: #fff url(../../i/ico-list.png) center no-repeat;
+}
+.page_index .multi .ls-form-inp-btn:hover, .page_index .ls-form-inp:hover .ls-form-inp-btn {
+    background-color: #fff;
+}
+.page_index .ls-form-inp input, .page_index .ls-form-select.req .ls-form-inp, .page_index .custom-select-adult .multi .ls-form-inp {
+    font-weight: normal;
+}
+.page_index .ls-form-select.multi .ls-form-inp {
+    color: #000000;
+}
+.page_index .custom-select-adult {
+    display: block;
+    width: auto;
+}
+
+.page_index .ls-form-cell + .ls-form-cell {
+    padding-left: 0;
+}
+
+.page_index .top-slider { height: 297px;position: relative; }
+.page_index .top-slider-jc { }
+.page_index .top-slider-ul { height: 297px; }
+.page_index .top-slider-li { background: url(/static/i/ts.png) center; height: 297px; width: 100%; position: relative; }
+.page_index .top-slider-form { background: White; border-radius: 3px; box-shadow: 0 0 10px #666; position: absolute; width: 535px; padding: 10px 10px 15px 15px; left: 20px; top: 20px; z-index: 5; }
+.page_index .top-slider-form-top { margin: 7px 10px 17px; font-size: 12px; line-height: 12px; }
+.page_index .top-slider-form-top-a { color: #f13d41; border-bottom: 1px dotted #f13d41; display: inline-block; text-decoration: none; }
+.page_index .top-slider-elem { float: left; border: 1px solid #e5e5e5; height: 33px; width: 249px; position: relative; border-radius: 2px; margin: 0 5px 5px 0; line-height: 31px; }
+.page_index .top-slider-elem-s { float: left; width: 75px; padding: 0 0 0 10px; color: #aaa; }
+.page_index .top-slider-input { width: 140px; background: White; border: 0; font-size: 12px; font-family: Arial, Helvetica, sans-serif; height: 20px; margin: 5px 0 0; padding: 0; }
+.page_index .top-slider-elem-a { background: url(/static/i/ico-list.png) no-repeat center; display: block; height: 31px; width: 31px; text-decoration: none !important; position: absolute; right: 0; top: 0; }
+.page_index .top-slider-elem-label { position: relative; display: inline-block; padding: 0 7px 0 17px; line-height: 14px; }
+.page_index .top-slider-elem-chk { position: absolute; left: 0; top: 0; }
+/*.page_index .top-slider-bot { margin: 10px 7px 0 10px; font-size: 11px; line-height: 16px; }*/
+/*.page_index .top-slider-bot-a { padding: 0 0 0 14px; color: #aaa; display: inline-block; background: url(../i/x.png) no-repeat 0 3px; text-decoration: none; margin: 9px 0 0; }*/
+/*.page_index .top-slider-bot-submit { background: #f13d41; border: 0; color: White; float: right; height: 33px; padding: 0 12px; font-family: apercu_pro, Arial, sans-serif; font-size: 10px; text-transform: uppercase; border-radius: 2px; }*/
+.page_index .top-slider-name { background: url(/static/i/black60.png); padding: 8px 20px 15px; position: absolute; right: 0; bottom: 20px; text-align: right; }
+.page_index .top-slider-name-a { color: White; font-family: apercu_pro, Arial, sans-serif; font-size: 15px; line-height: 18px; font-weight: bolder; text-decoration: none; display: block; }
+.page_index .top-slider-name-s1 { }
+.page_index .top-slider-name-s2 { font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; }
+.page_index .top-slider-name-s3 { text-decoration: underline; }
+.page_index .top-slider-pagi { background: url(/static/i/black60.png); position: absolute; padding: 0 7px; font-size: 18px; font-weight: bolder; line-height: 17px; top: 20px; right: 20px; z-index: 5; cursor: default; }
+.page_index .top-slider-pagi a { color: #b6aeab; text-decoration: none;  padding-left: 2px; padding-right: 2px;}
+.page_index .top-slider-pagi .top-slider-a-act { color: White; text-decoration: none; }
+
+.page_index .category-check-filter {
+    padding: 0px 0px 0px 8px;
+    border: none;
+}
+
+.page_index .category-check-filter li {
+    margin-right: 7px;
+}
+
+.page_index div.city-filter {
+    float: none !important;
+    display: block;
+    position: absolute !important;
+    top: 7px !important;
+    border: none !important;
+}
+
+.city-filter div.ls-form-select-lbl {
+    width: 100px !important;
+    color: #000 !important;
+}
+.city-filter div.ls-form-inp.ls-form-inp_last {
+    padding-left: 0 !important;
+}
+
+.city-filter .ls-form-inp-btn.ls-form-pp-btn {
+    display: none !important;
+}
+
+.city-filter .ls-form-inp.ls-form-inp_last input {
+    color: #F13D41 !important;
+}
+
+.page_index .ls-form-cell .uni-form-dd_active1 .uni-form-dd-cnt1 {
+    width: 100%;
+}
+
+.page_index .child-age-selector {
+    float: left;
+}
+
+.page_index div.child-age-selector .ls-form-select-lbl {
+    width: 105px;
+}
+
+.tourbook-index .custom-select-children {
+    width: 100%;
+}
+
+.page_index .custom-select-children.custom-select-children1,
+.page_index .custom-select-children.custom-select-children2
+{
+    width: 80px;
+    border: 1px solid #E5E5E5;
+}
+
+
+.top-slider-bot.top-slider-bot-wide {
+    margin-top: 42px;
+}

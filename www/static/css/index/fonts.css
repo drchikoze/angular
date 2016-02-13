@@ -1,0 +1,98 @@
+@font-face {
+	font-family: 'Helvetica-4';
+	src: url('/static/fonts/Helvetica-4-Light.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'LetoSans';
+	src: url('/static/fonts/LetoSans.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'LetoSans-Bold';
+	src: url('/static/fonts/LetoSans-Bold.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MuseoSans-700';
+	src: url('/static/fonts/MuseoSansCyrl_700.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'apercu_pro';
+    src: url('/static/fonts/apercupro-bolditalic-webfont.woff') format('woff'),
+         url('/static/fonts/apercupro-bolditalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/apercupro-bolditalic-webfont.svg#apercu_probold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'apercu_pro_mono';
+    src: url('/static/fonts/apercumonopro-regular-webfont.woff') format('woff'),
+         url('/static/fonts/apercumonopro-regular-webfont.ttf') format('truetype'),
+         url('/static/fonts/apercumonopro-regular-webfont.svg#apercu_pro_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'apercu_pro';
+    src: url('/static/fonts/apercupro-regular-webfont.woff') format('woff'),
+         url('/static/fonts/apercupro-regular-webfont.ttf') format('truetype'),
+         url('/static/fonts/apercupro-regular-webfont.svg#apercu_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'apercu_pro';
+    src: url('/static/fonts/apercupro-ltalic-webfont.woff') format('woff'),
+         url('/static/fonts/apercupro-ltalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/apercupro-ltalic-webfont.svg#apercu_proitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'apercu_pro';
+    src: url('/static/fonts/apercupro-lightltalic-webfont.woff') format('woff'),
+         url('/static/fonts/apercupro-lightltalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/apercupro-lightltalic-webfont.svg#apercu_prolight_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'apercu_pro';
+    src: url('/static/fonts/apercupro-demibolditalic-webfont.woff') format('woff'),
+         url('/static/fonts/apercupro-demibolditalic-webfont.ttf') format('truetype'),
+         url('/static/fonts/apercupro-demibolditalic-webfont.svg#apercu_prodemibold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'apercu_pro';
+    src: url('/static/fonts/apercupro-demibold-webfont.woff') format('woff'),
+         url('/static/fonts/apercupro-demibold-webfont.ttf') format('truetype'),
+         url('/static/fonts/apercupro-demibold-webfont.svg#apercu_prodemibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'apercu_pro_light';
+    src: url('/static/fonts/apercupro-light-webfont.woff') format('woff'),
+         url('/static/fonts/apercupro-light-webfont.ttf') format('truetype'),
+         url('/static/fonts/apercupro-light-webfont.svg#apercu_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'apercu_pro_bold';
+    src: url('/static/fonts/apercupro-bold-webfont.woff') format('woff'),
+         url('/static/fonts/apercupro-bold-webfont.ttf') format('truetype'),
+         url('/static/fonts/apercupro-bold-webfont.svg#apercu_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

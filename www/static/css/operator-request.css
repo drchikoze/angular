@@ -1,0 +1,74 @@
+.filter-panel li {
+    background-color: #f1f1f1;
+    padding: 4px;
+    margin-bottom: 3px;
+}
+.filter-panel {
+    margin-top: 15px;
+}
+
+.page-header {
+    margin: -10px 0 18px !important;
+}
+
+.filter-panel>li>a {
+    color: #00599e;
+
+}
+.filter-panel>li.active>a {
+    background-color: #0F66D9 !important;
+
+}
+.form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+.field {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.request-log {
+    border-collapse: collapse;
+}
+
+.request-log td, th{
+    padding: 5px;
+    border: 1px solid rgb(188, 188, 188);
+}
+
+.request-log th{
+    background: #EFEFEF;
+}
+
+.request-log-header {
+    margin: 6px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.no-active-request {
+    background-color: #B8E9EC;
+}
+
+.request-chosen {
+    background-color: #FFEC8B !important;
+}
+
+.failed_contact {
+    background-color: #ffb3c4;
+}
+
+.hidden-managers {
+    position:relative;
+    display: none;
+}
+
+.hidden-managers-list {
+    position: absolute;
+    background: white;
+    border: 1px solid #eee;
+    padding: 10px;
+}

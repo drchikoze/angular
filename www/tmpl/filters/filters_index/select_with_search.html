@@ -1,0 +1,70 @@
+<div bindonce class="ls-form-cell-pp-holder"
+     ng-class="{'uni-form-dd_active1' : searchPopup, 'uni-form-dd_active2' : selectPopup}">
+    <div class="ls-form-select multi req">
+        <div class="ls-form-select-lbl">
+            <span ng-if="nick == 'ct'" style="display: -moz-box" title="Город вылета">Город вылета&nbsp;–&nbsp;</span>
+            <span ng-if="nick == 'co'">Страна</span>
+        </div>
+        <div class="ls-form-inp ls-form-inp_last">
+            <input class="ls-form-inp-field ls-chooser-dd-input" type="text"
+                   ng-model="value"
+                   tabindex="1"
+                   ng-focus="value=''; displaySearchPopup()"
+                   ui:keyboard-navigatable
+                   navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}"
+                    >
+            <span class="ls-form-inp-btn ls-form-pp-btn"
+                ng-click="displaySelectPopup()"
+                ui:keyboard-navigatable
+                navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}"></span>
+        </div>
+    </div>
+
+    <div class="ls-form-select-pp uni-form-dd-cnt2">
+        <div class="ls-form-select-pp-inner">
+            <div class="ls-form-scroll-wrap">
+                <div class="ls-form-scroll uni-form-dd-tabs uni-form-dd-tabs_val ls-form-scroll-wrap">
+                    <ul class="ls-form-list">
+                        <li class="ls-form-list-i"
+                            bo-class="{'uni-form-dd-i_current' : getValues() == item.id}" bindonce
+                            ng-repeat="item in source"
+                            ng-click="select(item, false); selectedRegion = item.region_name"
+                            ><a href="javascript:void(0);" class="ls-form-list-i-a" bo-text="item.name"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="searchbar-form-pp pop-up-ref searchbar-form-pp_wa uni-form-dd-cnt1">
+        <div class="searchbar-form-pp-shadow-holder">
+            <div class="ls-form-scroll-wrap uni-form-dd-tabs uni-form-dd-tabs_val ls-form-scroll-wrap">
+                <ul class="searchbar-form-pp-res">
+                    <li class="searchbar-form-pp-res-i" ng-show="showAllLink"
+                        ng-class="{'searchbar-form-pp-res-i-current' : ! getValues()}">
+                        <a href="javascript:void(0);" class="searchbar-form-pp-res-resort" ng-click="selectAll()">
+                            <span class="searchbar-form-pp-res-tx" bo-text="showAllLink || 'Выбрать все'"></span>
+                        </a>
+                    </li>
+                    <li class="searchbar-form-pp-res-i"
+                        ng-class="{'uni-form-dd-i_current' : getValues() == item.id}"
+                        ng-repeat="item in source | filterTranslit:value"
+                        ng-click="select(item, true)">
+                        <a href="javascript:void(0);" class="searchbar-form-pp-res-resort">
+                            <span class="searchbar-form-pp-res-tx" bo-text="item.name"></span>
+                        </a>
+                    </li>
+                    <li class="searchbar-form-pp-res-i" ng-if="(nick == 'co' || nick == 'ct') && withOther">
+                        <span class="searchbar-form-pp-res-tx">
+                            <a class="searchbar-form-pp-res-all" ng-click="selectOther()" href="javascript:void(0);">
+                                <span ng-if="nick == 'ct'">Города вылета нет в списке?</span>
+                                <span ng-if="nick == 'co'">Страны прибытия нет в списке?</span>
+                            </a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

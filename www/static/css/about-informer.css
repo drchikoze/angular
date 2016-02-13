@@ -1,0 +1,35 @@
+.about-informer-block {
+    text-align: center;
+}
+
+.about-informer-column {
+    width: 30%;
+    float: left;
+}
+
+.about-informer-clear {
+    clear: left;
+}
+
+.about-informer-code {
+    display: none;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    word-break: break-all;
+    line-height: normal;
+    text-align: left;
+    font-family: 'Courier New', 'monospace';
+}
+
+.about-informer-show {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    border: 1px solid lightgrey;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

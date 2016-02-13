@@ -1,0 +1,185 @@
+.hidden-rows {
+    display: none;
+}
+
+.title-row {
+    text-align: center;
+}
+
+.show-more, .promo {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.show-more:hover, .promo:hover {
+    color: #9DAABC;
+}
+
+.container .navbar {
+    display: none;
+}
+
+.stage-log{
+    cursor: pointer;
+}
+.stage-log-details {
+    position: absolute;
+    margin-left: -100px;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    padding: 5px;
+    display: none;
+    cursor: pointer;
+    text-align: left;
+}
+#pp-promo-shadow {display: none; position: fixed; width: 100%; height: 100%; z-index: 10; top: 0; left: 0;}
+#pp-promo {position: fixed; top: 300px; left: 50%; width: 500px; margin-left: -250px; background-color: white; box-shadow: 0 0 3px #000000; padding: 20px; z-index: 20;}
+#pp-promo label {float: left; display: block; width: 200px; margin-right: 20px;}
+#pp-promo input {width: 100px; padding: 0 5px;}
+#pp-promo input[type="submit"] {width: 200px;}
+#pp-promo input[readonly] {border: 0;}
+.pp-promo-code, .pp-promo-tour-price, .pp-promo-user-price {display: inline-block; width: 200px;}
+
+.pp-promo-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+table tr.highlight td {background-color: #ebd1ce;}
+table tr td {transition: background-color 1s ease-out 0.5s;}
+
+.room-type-loader {
+    height: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.watcher-request-form {
+    padding-bottom: 40px;
+}
+
+.watcher-request-form span {
+    display: inline-block;
+    min-width: 183px;
+    margin-bottom: 10px;
+}
+
+.watcher-request-form textarea {
+    vertical-align: top;
+}
+
+.error {
+    color: red !important;
+}
+
+.datepicker-button {
+    display: inline-block;
+    background: rgb(212, 208, 200) url(/js/a/calendar/i/calendar.gif) no-repeat scroll center;
+    height: 24px;
+    width: 34px;
+    vertical-align: top;
+    -moz-background-clip: -moz-initial;
+    -moz-background-origin: -moz-initial;
+    -moz-background-inline-policy: -moz-initial;
+}
+.lift-top {
+    margin-top: -22px;
+}
+.inl {
+    display: inline-block;
+}
+.contact-line {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.contact-line dd {
+    float: right;
+}
+.contact-line dt {
+    float: left;
+}
+.red {
+    color: red;
+}
+#next_contact_date, #next_contact_time {
+    max-width: 70px;
+}
+.plan-next-contact, .fr {
+    float: right;
+}
+.fr {
+    height: 30px;
+    margin-left: 5px;
+}
+.inl-b {
+    display: inline-block;
+}
+.label-col {
+    display: inline-block;
+    width: 110px;
+    margin-bottom: 15px;
+}
+.header-like {
+    color: #444444;
+    font-size: 20px;
+}
+.header-like:hover, .header-like:active, .header-like:focus {
+    text-decoration: none;
+    color: #444444;
+}
+.header-like:after {
+    content: " ";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #000544 transparent;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 5px;
+}
+.header-like.collapsed:after {
+    content: " ";
+    border-width: 5px 5px 0 5px;
+    border-color: #000544 transparent transparent transparent;
+}
+
+.contacts-table {
+    width: 100%;
+}
+.contacts-table td:first-child + td {
+    min-width: 110px;
+}
+.notes-block {
+    margin-bottom: 20px;
+}
+.contacts-table td {
+    border-bottom: 1px solid rgb(188, 188, 188);
+}
+.contacts-table tr:last-child td {
+    border-bottom: none;
+}
+.hidden {
+    display: none;
+}
+a {
+    cursor: pointer;
+}
+.contact-details {
+    max-width: 580px;
+}
+.contact-details pre {
+    background-color: transparent;
+    border: none;
+    padding-left: 0;
+}

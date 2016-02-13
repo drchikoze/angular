@@ -1,0 +1,89 @@
+<div class="custom-select-pers ls-form-room-size">
+    <div class="ls-form-cell-pp-holder ls-form-cell-pp-holder-tourist">
+        <div class="custom-select-adult">
+            <div class="ls-form-select multi">
+                <div class="ls-form-select-lbl">Туристы</div>
+                <a href="javascript:void(0);"
+                   ng-click="displayAdult()"
+                   class="ls-form-inp ls-form-pp-btn ls-form-inp_last">
+                    <span class="ls-form-inp-inner">{{ adult.name }}</span>
+                    <span class="ls-form-inp-btn"></span>
+                </a>
+            </div>
+            <div class="ls-form-select-pp" ng-show="adultPopup">
+                <div class="ls-form-select-pp-inner">
+                    <div class="ls-form-scroll-wrap">
+                        <div class="ls-form-scroll">
+                            <ul class="ls-form-list">
+                                <li class="ls-form-list-i" ng-repeat="item in source"
+                                    ng-class="{'uni-form-dd-i_current' : adult.id == item.id}">
+                                    <a href="javascript:void(0);" ng-click="selectAdult(item)"
+                                       class="ls-form-list-i-a">{{ item.name }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ls-form-cell-pp-holder">
+                    <div class="custom-select-children custom-select-children1" ng-show="adult.children > 0">
+                        <div class="ls-form-cell-pp-holder">
+                            <div class="ls-form-select multi req">
+                                <div class="ls-form-select-lbl">Возраст 1</div>
+                                <a href="javascript:void(0);"
+                                   ng-click="displayChild1()"
+                                   class="ls-form-inp ls-form-pp-btn ls-form-inp_last"
+                                   ng-class="{2 : 'no-border-radius'}[adult.children]">
+                                    {{ selectedCh1 }}
+                                    <span class="ls-form-inp-btn"></span>
+                                </a>
+                            </div>
+                            <div class="ls-form-select-pp" ng-show="child1Popup">
+                                <div class="ls-form-select-pp-inner">
+                                    <div class="ls-form-scroll-wrap">
+                                        <div class="ls-form-scroll">
+                                            <ul class="ls-form-list">
+                                                <li class="ls-form-list-i" ng-repeat="item in child1"
+                                                    ng-class="{'uni-form-dd-i_current' : item.id == child1_age}">
+                                                    <a href="javascript:void(0);" ng-click="selectChild1(item.id)"
+                                                       class="ls-form-list-i-a">{{ item.name }}</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="custom-select-children custom-select-children2" ng-show="adult.children > 1">
+                        <div class="ls-form-cell-pp-holder">
+                            <div class="ls-form-select multi req">
+                                <div class="ls-form-select-lbl">Возраст 2</div>
+                                <a href="javascript:void(0);"
+                                   ng-click="displayChild2()"
+                                   class="ls-form-inp ls-form-pp-btn ls-form-inp_last">
+                                    {{ selectedCh2 }}
+                                    <span class="ls-form-inp-btn"></span>
+                                </a>
+                            </div>
+                            <div class="ls-form-select-pp child-age2" ng-show="child2Popup">
+                                <div class="ls-form-select-pp-inner">
+                                    <div class="ls-form-scroll-wrap">
+                                        <div class="ls-form-scroll">
+                                            <ul class="ls-form-list">
+                                                <li class="ls-form-list-i" ng-repeat="item in child2"
+                                                    ng-class="{'uni-form-dd-i_current' : item.id == child2_age}">
+                                                    <a href="javascript:void(0);" ng-click="selectChild2(item.id)"
+                                                       class="ls-form-list-i-a">{{ item.name }}</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+</div>

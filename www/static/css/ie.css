@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'LetoSans-Bold';
+    src: url('../fonts/LetoSans-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.b-reserved-fast-bot .call-me, .header-mini-label { font-family: 'LetoSans-Bold'; font-weight: bolder; }

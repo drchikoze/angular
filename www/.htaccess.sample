@@ -1,0 +1,40 @@
+RewriteEngine on
+
+RewriteRule ^/js/a - [L]
+
+RewriteCond %{REQUEST_URI} ^/icache/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* icache.php?uri=%{REQUEST_URI} [L]
+
+# ƒл€ yii
+RewriteCond %{REQUEST_URI} ^/(debug|gii)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index-yii.php [L]
+
+# ƒл€ yii админки
+RewriteCond %{REQUEST_URI} ^/admin/(communications|settings|site)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* admin-yii.php [L]
+
+# ƒл€ админки надо раскомментировть строки ниже
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^admin admin.php [L]
+
+# ƒве политики файлов:
+# 1. на index.php перенаправл€ютс€ все вызовы, которые не файлы
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* index.php
+
+# 2. на index.php перенаправл€ютс€ все вызовы по маске (в т.ч. если файл существует
+#RewriteRule !\.(js|ico|gif|jpg|png|css)$ index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*)-version-(\d+)\.(jpg|jpeg|gif|png|js|css|txt|htm)$ $1.$3 [R,L]
+
+# не забываем раскомментировать на релизе:
+#<FilesMatch "admin">
+#AuthType Basic               
+#AuthName FixMeHtAccessAuthName
+#AuthUserFile /usr/local/etc/.htpass
+#AuthGroupFile /usr/local/etc/.htgroup
+#require group projectname.ru
+#</FilesMatch>

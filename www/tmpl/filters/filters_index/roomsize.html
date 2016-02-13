@@ -1,0 +1,101 @@
+<div class="ls-form-select multi req" style="  border: 1px solid #e5e5e5; min-height: 33px">
+    <div>
+        <div class="ls-form-cell-pp-holder">
+            <div class="ls-form-select multi req">
+                <div class="ls-form-select-lbl">Туристы</div>
+                <a href="javascript:void(0);"
+                   tabindex="6"
+                   ng-click="displayAdult()"
+                   ng-focus="displayAdult()"
+                   ui:keyboard-navigatable
+                   navigate-on="{space: submit, up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}"
+                   class="ls-form-inp ls-form-pp-btn ls-form-inp_last">{{ adult.name }}
+                    <span class="ls-form-inp-btn"></span>
+                </a>
+            </div>
+            <div class="ls-form-select-pp" ng-show="adultPopup">
+                <div class="ls-form-select-pp-inner">
+                    <div class="ls-form-scroll-wrap">
+                        <div class="ls-form-scroll uni-form-dd-tabs uni-form-dd-tabs_val">
+                            <ul class="ls-form-list">
+                                <li class="ls-form-list-i" bindonce ng-repeat="item in source track by item.id"
+                                    bo-class="{'uni-form-dd-i_current' : adult.id == item.id}">
+                                    <a href="javascript:void(0);" ng-click="selectAdult(item)" bo-text="item.name"
+                                       class="ls-form-list-i-a"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="child-age-selector" ng-show="adult.children > 0">
+        <div class="ls-form-select-lbl" style="padding-left: 0px; padding-top: 9px;">Возраст детей</div>
+    </div>
+
+    <div class="custom-select-children custom-select-children1" ng-show="adult.children > 0" style="position: absolute; left: 91px; top: 42px;">
+        <div class="ls-form-cell-pp-holder">
+            <div class="ls-form-select multi req">
+                <!--<div class="ls-form-select-lbl">Возраст детей</div>-->
+                <a href="javascript:void(0);"
+                   tabindex="7"
+                   ng-click="displayChild1()"
+                   ng-focus="displayChild1()"
+                   ui:keyboard-navigatable
+                   navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}"
+                   class="ls-form-inp ls-form-pp-btn ls-form-inp_last" ng-class="{2 : 'no-border-radius'}[adult.children]">
+                        {{ selectedCh1 }}
+                    <span class="ls-form-inp-btn"></span>
+                </a>
+            </div>
+            <div class="ls-form-select-pp ls-form-select-pp1" ng-show="child1Popup">
+                <div class="ls-form-select-pp-inner">
+                    <div class="ls-form-scroll-wrap">
+                        <div class="ls-form-scroll uni-form-dd-tabs uni-form-dd-tabs_val ls-form-scroll-wrap">
+                            <ul class="ls-form-list">
+                                <li class="ls-form-list-i" ng-repeat="item in child1"
+                                    ng-class="{'uni-form-dd-i_current' : item.id == child1_age}">
+                                    <a href="javascript:void(0);" ng-click="selectChild1(item.id)"
+                                       class="ls-form-list-i-a">{{ item.name }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="custom-select-children custom-select-children2" ng-show="adult.children > 1" style="position: absolute; left: 170px; top: 42px;">
+        <div class="ls-form-cell-pp-holder">
+            <div class="ls-form-select multi req">
+                <a href="javascript:void(0);"
+                   ng-click="displayChild2()"
+                   ng-focus="displayChild2()"
+                   tabindex="8"
+                   ui:keyboard-navigatable
+                   navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}"
+                   class="ls-form-inp ls-form-pp-btn ls-form-inp_last">
+                    {{ selectedCh2 }}
+                    <span class="ls-form-inp-btn"></span>
+                </a>
+            </div>
+            <div class="ls-form-select-pp ls-form-select-pp2" ng-show="child2Popup">
+                <div class="ls-form-select-pp-inner">
+                    <div class="ls-form-scroll-wrap">
+                        <div class="ls-form-scroll uni-form-dd-tabs uni-form-dd-tabs_val ls-form-scroll-wrap">
+                            <ul class="ls-form-list">
+                                <li class="ls-form-list-i" ng-repeat="item in child2"
+                                    ng-class="{'uni-form-dd-i_current' : item.id == child2_age}">
+                                    <a href="javascript:void(0);" ng-click="selectChild2(item.id)"
+                                       class="ls-form-list-i-a">{{ item.name }}</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

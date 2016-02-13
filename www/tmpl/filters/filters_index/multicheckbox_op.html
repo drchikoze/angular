@@ -1,0 +1,67 @@
+<div class="ls-form-cell-pp-holder" ng-class="{'uni-form-dd_active1' : searchPopup, 'uni-form-dd_active2' : selectPopup}">
+    <div class="ls-form-select multi">
+        <div class="ls-form-select-lbl">
+            <span ng-if="nick == 're'">Курорт</span>
+            <span ng-if="nick == 'op'">Оператор</span>
+        </div>
+
+        <a ng-show="value != ''"
+           ng-click="displaySelectPopup()"
+           ng-focus="displaySelectPopup()"
+           ng-model="value"
+           ui:keyboard-navigatable
+           navigate-on="{escape: close}"
+           tabindex="9"
+                class="ls-form-inp ls-form-pp-btn ls-form-inp_last">
+            {{ value }}
+            <span class="ls-form-inp-btn ls-form-pp-btn icon-list2"></span>
+        </a>
+
+        <a ng-show="value == ''"
+           ng-click="displaySelectPopup()"
+           ng-focus="displaySelectPopup()"
+           ng-model="label"
+                class="ls-form-inp ls-form-pp-btn ls-form-inp_last">
+            {{ label }}
+            <span class="ls-form-inp-btn ls-form-pp-btn icon-list2"></span>
+        </a>
+    </div>
+    <div class="ls-form-select-pp"  ng-show="selectPopup">
+        <div class="ls-form-select-pp-inner">
+            <div class="ls-form-scroll-wrap">
+                <div class="operator-active" style="    padding: 5px 0 0 8px;">
+                    <label class="ls-form-chck-lbl" style="line-height: 21px;
+    display: block;
+    height: 21px;
+    padding-left: 20px;">
+                        <span>Показывать операторов</span>
+                        <input type="checkbox" class="ls-form-chck" id="open-operators" ng-model="$root.operatorsOpen" ng-click="setOperatorsOpen();" style="    position: absolute;
+                        left: 17px;
+    top: 9px;
+    padding: 0;
+    border-radius: 0;
+    width: auto;
+    height: auto;">
+                    </label>
+                </div>
+                <div class="ls-form-scroll" ng-show="$root.operatorsOpen">
+                    <ul class="ls-form-list ls-form-list_v ls-form-list_chck">
+                        <li class="ls-form-list-i" bindonce  ng-repeat="item in source | limitTo:scrollLimit">
+
+                            <label class="ls-form-chck-lbl">
+                                <span bo-text="item.name"></span>
+                                <input type="checkbox" class="ls-form-chck" bo-id="'item_' + nick + '_' + item.id " ng-model="selected[item.id]" >
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="ls-form-select-bot">
+                <a href="javascript:void(0)"
+                   ng-click="use();"
+                   class="ls-form-select-bot-btn">Выбрать</a>
+            </div>
+        </div>
+    </div>
+</div>
+

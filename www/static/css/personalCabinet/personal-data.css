@@ -1,0 +1,92 @@
+.content {
+    margin-bottom: 40px;
+}
+
+.bg-grey {
+    background: #f1f1f1;
+}
+
+.tourbook-form .wave-block {
+    padding: 20px;
+}
+
+
+.sbm-btn {
+    background-color: #f13d41;
+    float: right;
+    color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 0;
+    cursor: pointer;
+    line-height: inherit;
+}
+
+.personal-data-my-tourbook-form ::-webkit-input-placeholder {
+    color:    #f13d41;
+}
+.personal-data-my-tourbook-form :-moz-placeholder {
+    color:    #f13d41;
+}
+.personal-data-my-tourbook-form ::-moz-placeholder {
+    color:    #f13d41;
+}
+.personal-data-my-tourbook-form :-ms-input-placeholder {
+    color:    #f13d41;
+}
+.m5r {
+    margin-right: 5px;
+}
+
+.ls-cell-4 .np-r {
+    padding-right: 0;
+}
+
+.registration-data {
+    padding: 20px;
+    margin: 10px;
+}
+
+.registration-data .info-title {
+    color: #999;
+    width: 20%;
+    display: block;
+    float: left;
+}
+
+.email-data {
+    margin-bottom: 10px;
+}
+
+.wave-block {
+    margin: 10px;
+}
+
+.cabinet-title {
+    font: bold 18px arial;
+    padding-left: 11px;
+    display: block;
+}
+.cabinet-header {
+    padding-left: 11px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.tourbook-form {
+    padding: 10px;
+}
+
+.wave-block {
+    margin: 0;
+}
+
+.vk_subscribe_bot{
+    height: 22px !important;
+    width: 170px !important;
+    background: none !important;
+    float: right !important;
+    margin-top: 15px !important;
+}
+

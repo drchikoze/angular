@@ -1,0 +1,113 @@
+.searchbar-form-pp-point {
+  position: relative;
+}
+.searchbar-form-pp {
+  display: none;
+  position: absolute;
+  z-index: 110;
+  left: -4px;
+  top: 28px;
+  width: 100%;
+  margin-top: 4px;
+  overflow: hidden;
+}
+.searchbar-form-pp-shadow-holder {box-shadow: 0 0 4px #B9B9B9; margin: 0 4px 4px 4px;background: #fff;}
+.searchbar-form-pp_wa {width: auto;}
+  .searchbar-form-pp-hider {
+    background: #fff;
+    position: absolute;
+    width: 226px;
+    height: 4px;
+    top: -4px;
+    left: 0;
+    z-index: 11;
+  }
+.searchbar-form-pp-inner {
+  padding: 10px 0 10px 10px;
+  white-space: nowrap;
+}
+.searchbar-form-pp-ilb {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  font-size: 12px; color: #000;
+}
+.searchbar-form-pp-line {padding-top: 5px; line-height: normal; overflow: hidden;}
+.searchbar-form-pp-age {float: right;}
+.searchbar-form-pp-line .searchbar-form-pp-ilb {float: left;line-height: 35px;}
+.searchbar-form-pp-age .selectBox-dropdown {display: inline-block;}
+.searchbar-form-pp-age-span {display: inline-block; padding: 0 12px 0 7px;line-height: 35px; vertical-align: top;}
+.searchbar-form-pp-ilb .custom-select {min-width: 50px;}
+.searchbar-form-pp-res {
+  border-top: 1px solid #f6f6f6;
+}
+.searchbar-form-pp-res-i {
+  border-bottom: 1px solid #f6f6f6;
+}
+.searchbar-form-pp-category {
+  padding: 0 10px;
+  margin: 0;
+  line-height: 27px;
+  font-size: 13px;
+  font-weight: bold;
+}
+.searchbar-form-pp-category-val {
+  color: #999;
+}
+.searchbar-form-pp-res-hotel {
+  display: block;
+  text-decoration: none;
+  padding: 4px 10px 7px 10px;
+}
+.searchbar-form-pp-res-hotel:hover {
+  background: #fff9e2;
+}
+.searchbar-form-pp-line {
+  color: #666;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.searchbar-form-pp-sugg {
+  color: #da4c4c;
+}
+.searchbar-form-pp-res-hotel-rating {
+  padding-left: 5px;
+  font-size: 12px;
+}
+.hotel-rating_high {color: #00a551;}
+.hotel-rating_med {color: #bdaa2c;}
+.hotel-rating_low {color: #c53c3c;}
+.searchbar-form-pp-res-hotel-loc {
+  color: #999;
+  font-size: 12px;
+}
+.searchbar-form-pp-res-count {
+  color: #999;
+}
+.searchbar-form-pp-res-all {
+  background: #eef9ff;
+  color: #3488b2;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 27px;
+  display: block;
+  padding: 0 10px;
+}
+.searchbar-form-pp-res-all:hover {
+  text-decoration: underline;
+}
+.searchbar-form-pp-res-resort {
+  display: block;
+  text-decoration: none;
+  padding: 0 10px;
+  line-height: 27px;
+  font-size: 12px;
+  color: #666;
+}
+.searchbar-form-pp-res-resort:hover {
+  background: #fff9e2;
+}
+
+@media screen and (max-width: 1259px) {
+  .banner-rixos {margin-right: 0;}
+}

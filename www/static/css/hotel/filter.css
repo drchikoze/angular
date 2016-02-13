@@ -1,0 +1,78 @@
+.right-col .ls-form {
+    background: #e3e3e3;
+    padding: 10px;
+}
+.right-col .ls-form .ls-form-select-lbl {
+    width: 69px;
+    text-align: left;
+}
+.right-col .ls-form-inner-bg { background: White; padding: 5px; border-radius: 3px; }
+.right-col .ls-form-cell {width: 175px;}
+.right-col .ls-form .ls-form-inp {width: 105px;}
+.right-col .ls-form .ls-form-reset {
+    font-size: 11px;
+    line-height: 15px;
+    padding: 0 0 0 14px;
+    color: #a9a9a9;
+    display: inline-block;
+    background: url(../../i/x.png) no-repeat 0 2px;
+    text-decoration: none;
+    margin: 9px 0 0;
+    float: left;
+    width: auto;
+    height: auto;
+}
+.right-col .ls-form .ls-form-reset:hover {text-decoration: underline;}
+.right-col .ls-form-line.ls-form-submit {padding: 0 5px 15px 15px; text-align: right; border-bottom: 1px solid White;}
+.right-col .ls-form-btn.find {
+    background: #ee5e61;
+    color: White;
+    line-height: 33px;
+    padding: 0 10px;
+    font-family: apercu_pro, Arial, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    text-decoration: none !important;
+    display: inline-block;
+}
+.right-col .side-filter-history {padding: 10px 0 1px 15px; line-height: 15px;}
+.right-col .side-filter-history-a {color: #a9a9a9; font-size: 11px; line-height: 15px; text-decoration: none;}
+.right-col .side-filter-history-a:hover {text-decoration: underline;}
+.right-col .custom-select-children {margin-left: 0}
+.right-col .child-age-table td {vertical-align: top; width: 105px}
+.right-col .ls-form-room-size .ls-form-select-pp {width: 112%;}
+.right-col .ls-form-line {border: 1px solid #e5e5e5; border-radius: 2px;overflow: hidden; -webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;}
+.right-col .ls-form-inp {position: relative;background: #fff; border: 0;  display: block; float: left; /*height: 33px;*/ margin-right: 1px; text-decoration: none; padding: 0 0 0 3px; font-size: 12px;}
+.right-col .ls-form-select-lbl {float: left; background: transparent; padding-left: 5px; padding-right: 0; border-radius: 3px 0 0 3px; color: #999; text-align: center;}
+.right-col .ls-form-select.active .ls-form-select-lbl {border-radius: 3px 0 0 0;}
+.right-col .ls-form-select.active .ls-form-inp {border-radius: 0 3px 0 0;}
+.right-col .ls-form-select-pp {overflow: hidden; -webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box; display: block; clear: both;}
+.right-col .ls-form-select-pp-inner {background: #fff; border-top: 1px solid #F5F0E4; }
+.right-col .ls-form-list {position: relative;}
+.right-col .ls-form .ls-form-inp.child-age {width: 90px; border-radius: 3px}
+.ls-no-float.auth-input {width: 75%;margin-left: 24%}
+.right-col .ls-form-select-lbl-2 { background: #f5f0e4; padding: 0 5px; border-radius: 3px 0 0 3px; color: #999; margin-bottom: 12px}
+
+.right-col .ls-form-line + .ls-form-line {
+    padding-top: 0;
+    margin-top: 5px;
+}
+.right-col .multi .ls-form-inp-btn {
+    background: #fff url(../../i/ico-list.png) center no-repeat;
+}
+.right-col .multi .ls-form-inp-btn:hover, .right-col .ls-form-inp:hover .ls-form-inp-btn {
+    background-color: #fff;
+}
+.right-col .ls-form-inp input, .right-col .ls-form-select.req .ls-form-inp, .right-col .custom-select-adult .multi .ls-form-inp {
+    font-weight: normal;
+}
+.right-col .ls-form-select.multi .ls-form-inp {
+    color: #000000;
+}
+.right-col .custom-select-adult {
+    display: block;
+}
+.right-col .ls-form-scroll-wrap {
+    max-width: 175px;
+}

@@ -1,0 +1,25 @@
+.page, .page-wrap {
+    min-height: 100% !important;
+}
+
+.page {
+    margin-top: -1px;
+}
+
+.tour_outdated_message {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.booking-closed-ttl-h2.need-help {
+    margin-top: 25px;
+}
+
+.booking-closed-date, .booking-closed-top-p, .gray, .gray:visited, .gray:active, .gray:focus, .gray:hover {
+    color: #666;
+}
+
+.booking-closed-ttl .tourbook-form .booking-closed-ttl-h2, .booking-closed-hi-elem-td.black.hotel-description {
+    color: #666 !important;
+}

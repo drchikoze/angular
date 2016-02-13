@@ -1,0 +1,31 @@
+.page_index .hp-monitor { }
+.page_index .hp-monitor-ttl { font-family: apercu_pro, Arial, sans-serif; font-size: 25px; line-height: 28px; font-weight: bolder; border-bottom: 1px solid #f1f1f1; padding: 0 0 17px; }
+.page_index .hp-monitor-ttl-a { background: url(/static/i/hp-form-d1-bg-a1.png) no-repeat center; display: inline-block; height: 14px; text-decoration: none; width: 14px; margin: 5px 0 0 3px; vertical-align: top; }
+.page_index .hp-monitor-td { font-family: apercu_pro, Arial, sans-serif; font-size: 15px; line-height: 17px; font-weight: bolder; border-bottom: 1px solid #f1f1f1; white-space: nowrap; width: 1%; }
+.page_index .hp-monitor-td0 {padding: 12px 17px 15px 0px;}
+.page_index .hp-monitor-td0 a {color: #F13D41;text-decoration: underline;}
+.page_index .hp-monitor-td0 a:hover {text-decoration: none;}
+.page_index .hp-monitor-td1 { background: url(/static/i/hp-monitor-td1.png) no-repeat right 20px; padding: 12px 17px 15px 0; }
+.page_index .hp-monitor-td2 { background: url(/static/i/arr-999.png) no-repeat right 20px; padding: 12px 25px 15px 15px; }
+.page_index .hp-monitor-td3 { color: #999; font-size: 11px; line-height: 13px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; width: auto; padding: 12px 15px 15px; }
+.page_index .hp-monitor-td4 { padding: 17px 0 15px; vertical-align: top; }
+.page_index .hp-monitor-s { color: #666; font-size: 12px; line-height: 13px; display: block; font-weight: normal; font-family: Arial, Helvetica, sans-serif; margin: 3px 0 0; }
+.page_index .hp-monitor-td3 .hp-monitor-s { margin: 3px 0 0 14px; }
+.page_index .hp-monitor-current {text-decoration: underline;}
+.page_index .hp-monitor-current:hover {text-decoration: none;}
+.page_index .hp-monitor-green { color: #00a551; }
+.page_index .hp-monitor-red { color: #c8242b; }
+.page_index .hp-monitor-black { color: Black; }
+.page_index .hp-monitor-price { font-family: apercu_pro, Arial, sans-serif; font-size: 15px; line-height: 17px; font-weight: bolder; }
+.page_index .hp-monitor-set-a { display: block; text-decoration: none; height: 8px; width: 8px; }
+.page_index .hp-monitor-set-a1 { background: url(/static/i/hp-monitor-set-a1.png) no-repeat center; }
+.page_index .hp-monitor-set-a2 { background: url(/static/i/hp-monitor-set-a2.png) no-repeat center; }
+.page_index .hp-monitor-td4-sep { display: block; }
+.page_index .hp-monitor-bot { font-size: 12px; line-height: 16px; font-family: Arial, Helvetica, sans-serif; border-bottom: 1px solid #f1f1f1; padding: 10px 0; color: #bbb;}
+.page_index .hp-monitor-bot-a { color: #00a551; text-decoration: none; }
+.page_index .hp-monitor-bot-a:hover { text-decoration: underline; }
+.page_index .hp-monitor-bot-a-f14 { color: #c8242b; font-size: 14px; }
+
+.page_index .no-bottom-border {
+    border-bottom: none !important;
+}

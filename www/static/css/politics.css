@@ -1,0 +1,139 @@
+ol {
+    margin: 0;
+    padding: 0
+}
+
+.c5 {
+    widows: 2;
+    orphans: 2;
+    text-align: justify;
+    direction: ltr;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.c6 {
+    widows: 2;
+    orphans: 2;
+    text-align: center;
+    direction: ltr;
+    margin-bottom: 10px;
+}
+
+.c1 {
+    widows: 2;
+    orphans: 2;
+    height: 11pt;
+    direction: ltr
+}
+
+.c15 {
+    widows: 2;
+    orphans: 2;
+    text-align: center;
+    direction: ltr
+}
+
+.c16 {
+    widows: 2;
+    orphans: 2;
+    direction: ltr
+}
+
+.c17 {
+    max-width: 527pt;
+    background-color: #ffffff;
+    padding: 28.3pt 28.3pt 28.3pt 56.7pt
+}
+
+.c13 {
+    text-indent: 36pt;
+    text-align: justify
+}
+
+.c7 {
+    color: #000080;
+    text-decoration: underline
+}
+
+.c4 {
+    color: #1155cc;
+    text-decoration: underline
+}
+
+.c3 {
+    color: inherit;
+    text-decoration: inherit
+}
+
+.c10 {
+    font-style: italic
+}
+
+.c12 {
+   font-size: 12pt
+}
+
+.c14 {
+    font-family: "Times New Roman"
+}
+
+.c0 {
+    font-size: 12px;
+}
+
+.c2 {
+    font-weight: bold
+}
+
+.c8 {
+    text-decoration: underline
+}
+
+.c9 {
+    color: #000080
+}
+
+.c11 {
+    font-size: 9pt
+}
+
+.title {
+    widows: 2;
+    padding-top: 0;
+    line-height: 1.15;
+    orphans: 2;
+    text-align: left;
+    color: #000000;
+    font-size: 21pt;
+    font-family: "Trebuchet MS";
+    padding-bottom: 0;
+    page-break-after: avoid
+}
+
+.subtitle {
+    widows: 2;
+    padding-top: 0;
+    line-height: 1.15;
+    orphans: 2;
+    text-align: left;
+    color: #666666;
+    font-style: italic;
+    font-size: 13pt;
+    font-family: "Trebuchet MS";
+    padding-bottom: 10pt;
+    page-break-after: avoid
+}
+
+li {
+    color: #000000;
+    font-size: 11pt;
+}
+
+
+
+p {
+    color: #000000;
+    font-size: 12px;
+}

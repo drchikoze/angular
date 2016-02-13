@@ -1,0 +1,41 @@
+<div class="ls-form-cell-pp-holder" ng-class="{'form-input-gray-label': allocation_gray == 1, 'form-input-black-label': allocation_black == 1}">
+    <div class="ls-form-select multi">
+        <div class="ls-form-select-lbl">Категория</div>
+        <div class="ls-form-inp ls-form-inp_last">
+            <div class="ls-form-inp-field ls-chooser-dd-input alloccat-title-inp" ng-click="displaySelectPopup()" style="cursor: pointer;">
+                {{ value ? value : 'Выберите' }}
+            </div>
+
+            <span class="ls-form-inp-btn"
+                  ng-click="displaySelectPopup()"
+                  ui:keyboard-navigatable
+                  navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}"
+                    >
+            </span>
+        </div>
+    </div>
+
+    <div class="ls-form-select-pp" ng-show="alloccatSelectPopup">
+        <div class="ls-form-select-pp-inner">
+            <ul class="ls-form-list ls-form-list_h ls-form-list_chck">
+                <li class="ls-form-list-i ls-form-list-alloccat" ng-repeat="item in source.alloccat | orderBy:'-name'" ng-show="item.show">
+                    <input type="checkbox" class="ls-form-chck"
+                           id="ac_{{ item.id }}"
+                           name="ac[]"
+                           ng-click="select('ac', item)"
+                           ng-model="item.selected"
+                           value="{{ item.id }}"
+                           ng-class="{hideAllocCat: !item.show}" />
+                    <label class="ls-form-chck-lbl" for="ac_{{ item.id }}">{{ item.intName }}<span ng-repeat="i in getNumber(item.intName) track by $index" class="ls-chooser-hotel-star"></span></label>
+                </li>
+                <li class="ls-form-list-i ls-form-list-alloccat">
+                    <input type="checkbox" class="ls-form-chck"
+                           id="ac_3_"
+                           ng-click="selectHideFunction()"
+                           ng-model="selectedHide" />
+                    <label class="ls-form-chck-lbl" for="ac_3_">2<span class="ls-chooser-hotel-star"></span><span class="ls-chooser-hotel-star"></span> и ниже</label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

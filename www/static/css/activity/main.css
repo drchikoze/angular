@@ -1,0 +1,89 @@
+.popularity-table td {
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 18px;
+    color: #999;
+    padding: 12px 15px 12px 15px;
+    vertical-align: top;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.popularity-table th {
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 12px 15px 12px 15px;
+    vertical-align: top;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.odd td {
+    background: #F7F7F7;
+}
+
+.even td {
+}
+
+.inner-field2 {
+    padding: 0 20px 20px;
+    height: auto;
+    min-height: 100%;
+}
+
+.alighn-center {
+    text-align: center;
+}
+
+a {
+    font-family: apercu_pro, Arial, sans-serif;
+
+    font-weight: bolder;
+    color: #f13d41;
+    margin: 0 0 2px;
+}
+
+.popularity-table a {
+    font-size: 15px;
+}
+
+.search-res-filt-a {
+    border-bottom: 1px dotted #999;
+    color: #999;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.search-res-filt-a-act {
+    border-bottom: 1px dotted #da4c4c;
+    color: #da4c4c;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.inner-field2 .popularity-table .header-sort {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #999;
+}
+
+.inner-field2 .popularity-table .header-sort-a {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #da4c4c;
+}
+
+.vk_subscribe_bot{
+    width: 40px;
+    background: none;
+    float: right;
+    margin-top: 7px;
+}
+.vk_subscribe_bot_text {
+    margin-top: 22px; float: right;
+}
+
+
+

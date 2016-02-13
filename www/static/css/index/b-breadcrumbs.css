@@ -1,0 +1,44 @@
+.page_index .breadcrumbs {
+	line-height: 16px;
+}
+
+
+.page_index .breadcrumbs li {
+	float: left;
+	 padding-right: 25px;
+	 margin-right: 15px;
+	 position: relative;
+}
+
+
+.page_index .breadcrumbs li:after {
+	content: "";
+	 position: absolute;
+	 top: 6px;
+	 right: 0;
+	 display: block;
+	 background: url(../i/icon-arrow-ltr.png) 0 0 no-repeat;
+	 width: 10px;
+	 height: 5px;
+}
+
+
+.page_index .breadcrumbs li:last-child:after {
+	display: none;
+}
+
+
+.page_index .breadcrumbs li a {
+	color: #ff898b;
+	 text-decoration: none;
+}
+
+
+.page_index .breadcrumbs li a:hover {
+	text-decoration: underline;
+}
+
+
+.page_index .breadcrumbs li.active a {
+	color: #fff;
+}

@@ -1,0 +1,59 @@
+
+.check-label-wrapper {
+    height: 33px;
+    vertical-align: middle;
+    display: table-cell;
+    padding-left: 10px;
+}
+
+.left-floated {
+    float: left;
+}
+
+.form-wrapper {
+    margin: 0 0 0 30px;
+}
+
+.form-wrapper .form-content {
+    border-radius: 10px;
+}
+
+.ls-row .text-reason {
+    width: 910px;
+}
+
+.buttons-wrapper {
+    width: 910px;
+    height: 20px;
+    position: relative;
+}
+
+.form-button {
+    float: left;
+    width: 120px;
+    margin-right: 10px;
+}
+
+.form-button-no-width {
+    float: left;
+    margin-right: 10px;
+}
+
+.form-title {
+    margin: 30px;
+}
+
+.form-title span {
+    font-size: 20px;
+}
+
+.reasons {
+     margin-bottom: 10px;
+     font-size: 14px;
+     font-weight: bold;
+ }
+
+.reasons-bottom {
+    margin-bottom: 10px;
+    font-size: 13px;
+}

@@ -1,0 +1,33 @@
+<div bindonce class="ls-form-cell-pp-holder">
+    <div class="ls-form-select multi">
+        <div class="ls-form-select-lbl">Категория</div>
+
+            <ul class="ls-form-list ls-form-list_h ls-form-list_chck category-check-filter">
+                <li class="ls-form-list-i" ng-repeat="item in source.alloccat|orderBy:'-name'" ng-show="item.show">
+                    <input type="checkbox" class="ls-form-chck"
+                           style="  vertical-align: text-bottom;"
+                           bo-id="'ac_' + item.id"
+                           name="ac[]"
+                           ng-click="select('ac', item)"
+                           bo-attr bo-attr-checked="item.selected"
+                           ui:keyboard-navigatable
+                           navigate-on="{escape: close}"
+                           bo-value = "item.id"
+                            />
+                    <label class="ls-form-chck-lbl">
+                        <span bo-text="item.name"></span>
+                    </label>
+                </li>
+                <li class="ls-form-list-i">
+                    <input type="checkbox" class="ls-form-chck"
+                           style="  vertical-align: text-bottom;"
+                           id="ac_3_"
+                           ng-click="selectHideFunction()"
+                           ng-model="selectedHide" />
+                    <label class="ls-form-chck-lbl" for="ac_3_">2*</label>
+                </li>
+            </ul>
+
+    </div>
+
+</div>

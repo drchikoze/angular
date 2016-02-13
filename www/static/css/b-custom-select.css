@@ -1,0 +1,40 @@
+.custom-select-night {
+	width: 127px;float: left;
+	color: #000;
+	margin-right: 12px;
+}
+.custom-select-night .multi .ls-form-inp,
+.custom-select-adult .multi .ls-form-inp, 
+.custom-select-children .multi .ls-form-inp {color: #000; font-weight: bold;} 
+.custom-select-pers {float: left; width: 331px;}
+.custom-select-adult {
+	display: inline-block;
+	width: 209px;
+}
+.custom-select-adult .ls-form-inp { border-radius: 0; padding-right: 5px;}
+.custom-select-children .ls-form-inp { border-radius: 0 3px 3px 0;}
+.custom-select-ticket .ls-form-inp { border-radius: 3px;}
+.custom-select-children {
+	display: inline-block;
+	margin-left: -2px;
+}
+.custom-select-children  .ls-form-select {min-width: 78px; }
+.ls-form-select-pp .selectBox-label {
+	width: 32px;
+}
+.custom-select-ticket { width: 125px; float: left; }
+.tourbook-index .custom-select-children {margin-left: -3px; border-left: 1px solid #EBE5D9;display: inline-block;width: 438px;
+    margin-top: -5px;}
+.tourbook-index .custom-select-children .ls-form-inp { border-radius: 0 3px 3px 0;}
+.tourbook-index .custom-select-children {width: 149px;  }
+.tourbook-index .custom-select-children1 {margin-left: 0; width: 150px }
+.tourbook-index .custom-select-children2 { border-radius: 0 3px 3px 0;}
+.tourbook-index .custom-select-children .no-border-radius {border-radius: 0; }
+.tourbook-index .custom-select-adult {width: 450px; display: inline-block;
+    border-radius: 0; }
+.tourbook-index .custom-select-adult .ls-form-inp {border-radius: 0 3px 3px 0;}
+
+.ls-form-cell-padd-top {padding-top: 10px; }
+
+.tb-filters-hotel .ls-form-select.req .ls-form-inp {height: 33px; }
+.ls-form-room-size .ls-form-select-pp {width: 100%;}

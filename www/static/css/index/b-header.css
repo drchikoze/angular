@@ -1,0 +1,27 @@
+.page_index .logo-a {background: url(/static/i/logo.png) 0 0 no-repeat; width: 320px; height: 22px; display: block;}
+.page_index .call-me {display: inline-block; vertical-align: middle; line-height: 22px; height: 22px; font-family: 'LetoSans-Bold'; color: #fff; font-size: 18px; margin-right: 55px;}
+	.call-me i.phone {vertical-align: middle; margin-right: 10px;}
+.page_index .account {display: inline-block; font-size: 12px; line-height: 22px;}
+.page_index .account_centered {margin-right: 100px; margin-top: -4px; position: relative;}
+.page_index .account-link {background: url(/static/i/dot-fff.png) 0 13px repeat-x;color: #fff; text-decoration: none;}
+.page_index .account-reg {text-decoration: none; color: #ff898b;}
+.page_index .account-reg:hover {text-decoration: underline;}
+.page_index .account-btn {
+	display: inline-block;
+	border: 1px solid #ff898b;
+	border-radius: 3px;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 24px;
+	background: url(/static/i/icon-key.png) 8px 50% no-repeat;
+	margin-right: 8px;
+}
+.page_index .account-btn span {padding: 0 9px; border-left: 1px solid #ff898b;display: block; height: 25px; line-height: 25px;}
+.page_index .account-sep {color: #f2595c; padding: 0 5px;}
+.page_index .show-instruction-href {position: absolute; right: 15px;}
+.page_index .show-instruction-href a {color: #fff; background: url(/static/i/dot-fff.png) 0 13px repeat-x; text-decoration: none;}
+.page_index .show-instruction-href a.simple-link { background: transparent; text-decoration: underline; color: #ff898b; margin-left: 10px;}
+.page_index .show-instruction-href a.simple-link:hover {text-decoration: none;}
+
+.page_index .landing .header-t .inner-field {padding-right: 15px; overflow: visible;}
+.page_index .landing .call-me {margin-right: 0;}

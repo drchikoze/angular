@@ -1,0 +1,29 @@
+<div bindonce class="ls-form-select multi">
+    <div class="ls-form-cell-pp-holder" ng-class="{'req' : value}">
+        <div class="ls-form-select multi">
+            <div class="ls-form-select-lbl w65" title="Рейтинг TopHotels на основе отзывов туристов"><div class="rate-th">Рейтинг</div></div>
+            <a href="javascript:void(0);" class="ls-form-inp ls-form-pp-btn ls-form-inp_last"
+               ng-click="displaySelectPopup()">
+                <span ng-if="value == ''">Не важно</span>
+                <span ng-if="value != ''">{{ value }}</span>
+                <span class="ls-form-inp-btn"></span>
+            </a>
+        </div>
+        <div class="ls-form-select-pp" ng-show="selectPopup">
+            <div class="ls-form-select-pp-inner">
+                <div class="ls-form-scroll-wrap">
+                    <div class="ls-form-scroll">
+                        <ul class="ls-form-list">
+                            <li class="ls-form-list-i"
+                                ng-class="{'uni-form-dd-i_current' : getValues() == item.id}"
+                                ng-repeat="item in source" ng-click="select(item, true)">
+                                <a href="javascript:void(0);" class="ls-form-list-i-a"
+                                   bo-text="item.name"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,2 @@
+AddType "text/html; charset=windows-1251" .tmpl
+AddType "text/html; charset=windows-1251" .html

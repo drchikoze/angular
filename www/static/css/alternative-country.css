@@ -1,0 +1,126 @@
+
+.alternative-country-info {
+    width: 32%;
+    width: calc(33% - 10px);
+    line-height: 24px;
+    min-height: 250px;
+    padding: 10px;
+    border: 3px solid #e7e7e7;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.alternative-country-info-title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.alternative-country-info-link {
+    background: #00a551;
+    text-decoration: none;
+    padding: 5px 15px 5px;
+    color: White;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: 'apercu_pro_bold';
+    display: block;
+    float: left;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+a.alternative-country-info-link:hover {
+    text-decoration: none;
+}
+
+
+.alternative-country-info-content {
+    height: 150px;
+}
+
+.alternative-country-block {
+    margin: 0 4px 10px;
+}
+
+.alternative-country-warning {
+    background-color: #FFCE57;
+    padding: 20px;
+}
+
+.alternative-country-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.alternative-country-title select {
+    font-weight: normal;
+    font-size: 12px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 24px;}
+
+.alternative-country-warning .alternative-country-title {
+    margin: 0 0 8px 0;
+}
+
+.alternative-country-request-block {
+    font-size: 14px;
+    margin: 0 10%;
+    line-height: 16px;
+}
+
+.alternative-country-request {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alternative-country-btn {
+    background-color: #F13D41;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.alternative-country-search-btn {
+    background: #F13D41;
+    color: White;
+    line-height: 26px;
+    padding: 0 10px;
+    font-family: apercu_pro, Arial, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    text-decoration: none !important;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.alternative-country-info-columns {
+    margin: 10px -4px;
+}
+
+.alternative-country-info-list {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 760px) {
+    .alternative-country-info {
+        width: 100%;
+        line-height: 24px;
+        min-height: 250px;
+        padding: 10px;
+        border: 3px solid #e7e7e7;
+        margin: 5px;
+    }
+
+    .alternative-country-request-block {
+        margin: 0;
+    }
+}

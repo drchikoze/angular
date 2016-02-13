@@ -1,0 +1,42 @@
+<div class="ls-form-cell-pp-holder" ng-class="{'form-input-gray-label': allocation_gray == 1, 'form-input-black-label': allocation_black == 1}">
+    <div class="ls-form-select multi">
+        <div class="ls-form-select-lbl">Отель</div>
+        <div class="ls-form-inp ls-form-inp_last">
+            <input class="ls-form-inp-field ls-chooser-dd-input" type="text"
+                   tabindex="3"
+                   ng-model="searchValue"
+                   debounce="700"
+                   placeholder="{{ selectPopup ? '': (value ? value : 'Выбор отеля') }}"
+                   ng-focus="value=''; displaySelectPopup()"
+                   ui:keyboard-navigatable
+                   navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}"
+                    >
+            <span class="ls-form-inp-btn"
+                  ng-click="displaySelectPopup()"
+                  ui:keyboard-navigatable
+                  navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}"
+                    >
+            </span>
+        </div>
+    </div>
+
+    <div class="ls-form-select-pp" ng-show="selectPopup">
+        <div class="ls-form-select-pp-inner">
+            <div class="ls-form-scroll-wrap">
+                <div class="ls-form-scroll">
+                    <ul class="ls-form-list ls-form-list_v ls-form-list_chck">
+                        <li class="ls-form-list-i" ng-repeat="item in source.allocations|filter:searchValue|filterAlocCat:selected.ac|orderBy:'name'">
+                            <input type="checkbox" class="ls-form-chck"
+                                   id="al_{{ item.id }}"
+                                   name="al[]"
+                                   ng-click="select('al', item)"
+                                   ng-checked="item.selected"
+                                   value="{{ item.id }}" />
+                            <label class="ls-form-chck-lbl" for="al_{{ item.id }}">{{ item.name }}</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

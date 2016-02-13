@@ -1,0 +1,152 @@
+ol {
+    margin: 0;
+    padding: 0
+}
+
+.c0 {
+    widows: 2;
+    orphans: 2;
+    height: 11pt;
+    text-align: justify;
+    direction: ltr
+}
+
+.c14 {
+    widows: 2;
+    orphans: 2;
+    height: 11pt;
+    text-align: left;
+    direction: ltr
+}
+
+.c8 {
+    widows: 2;
+    orphans: 2;
+    text-align: justify;
+    direction: ltr;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px;
+
+}
+
+.c11 {
+    widows: 2;
+    orphans: 2;
+    text-align: center;
+    direction: ltr;
+    margin-bottom: 10px;
+}
+
+.c1 {
+    max-width: 527pt;
+    background-color: #ffffff;
+    padding: 28.3pt 28.3pt 28.3pt 56.7pt
+}
+
+.c17 {
+    widows: 2;
+    orphans: 2;
+    direction: ltr
+}
+
+.c4 {
+    font-style: italic;
+    font-weight: bold
+}
+
+.c3 {
+    color: inherit;
+    text-decoration: inherit
+}
+
+.c7 {
+    color: #1155cc;
+    text-decoration: underline
+}
+
+.c6 {
+    color: #000080;
+    text-decoration: underline
+}
+
+.c5 {
+    font-style: italic
+}
+
+.c2 {
+    font-size: 12px;
+
+}
+
+.c19 {
+    text-decoration: line-through
+}
+
+.c18 {
+    color: #000080
+}
+
+.c9 {
+    font-size: 12pt
+}
+
+.c15 {
+    height: 11pt
+}
+
+.c13 {
+    text-indent: 36pt
+}
+
+.c10 {
+    text-decoration: underline
+}
+
+.c20 {
+    background-color: #ffffff
+}
+
+.c12 {
+    font-weight: bold
+}
+
+.c16 {
+    color: #ff0000
+}
+
+.title {
+    widows: 2;
+    padding-top: 0;
+    line-height: 1.15;
+    orphans: 2;
+    text-align: left;
+    color: #000000;
+    font-size: 21pt;
+    padding-bottom: 0;
+    page-break-after: avoid
+}
+
+.subtitle {
+    widows: 2;
+    padding-top: 0;
+    line-height: 1.15;
+    orphans: 2;
+    text-align: left;
+    color: #666666;
+    font-style: italic;
+    font-size: 13pt;
+    padding-bottom: 10pt;
+    page-break-after: avoid
+}
+
+li {
+    color: #000000;
+    font-size: 11pt;
+}
+
+p {
+    color: #000000;
+    font-size: 12px;
+}
+

@@ -1,0 +1,114 @@
+.sub-row {
+    display: block;
+    font-size: 11px;
+    color: #8A8A8A;
+    font-weight: 400;
+}
+
+.gray-text {
+    color: #ddd;
+}
+.help-text {
+    color: #ccc;
+}
+
+th.num {
+    text-align: right;
+}
+
+td.num {
+    text-align: right;
+    white-space: nowrap;
+}
+td.allocation {
+    min-width: 140px;
+}
+
+.request-sub-row {
+    display: block;
+    font-size: 12px;
+    color: #8A8A8A;
+    font-weight: 400;
+}
+
+th.center-row,
+td.center-row {
+    text-align: center;
+}
+
+
+.request-detail-text {
+    display: block;
+    float: right;
+}
+
+.request-description-text {
+    display: block;
+}
+
+.watcher-info h5 span {
+    display: inline-block;
+    width: 150px;
+}
+
+.date-field {
+    width: 120px !important;
+}
+
+.calendar {
+    height: 32px !important;
+    width: 18px !important;
+    margin: 0 14px 2px -35px !important;
+    vertical-align: bottom !important;
+    border: none !important;
+    background: rgb(255, 255, 255) url(/js/a/calendar/i/calendar.gif) no-repeat scroll center !important;
+}
+
+.field-id {
+    width: 90px !important;
+}
+
+.ti-search-button {
+    margin-left: 5px;
+}
+
+.table.table-middle-head tr th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.tooltip.loyality-info {
+    display: none;
+    width: 540px;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 3px;
+    left: 50%;
+    opacity: 1;
+    cursor: default;
+    color: #000;
+    box-shadow: rgba(0,0,0,0.3) 0 0 14px 0
+}
+
+.loyality-block, .loyality-block:hover, #loyality-button {
+    color: #000;
+}
+
+#loyality-button {
+    font-size: 16px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+.tooltip.loyality-info p {
+    margin: 0 0 4px;
+}
+.label-col {
+    display: inline-block;
+    width: 110px;
+    margin-bottom: 15px;
+}
+.inl-b {
+    display: inline-block;
+}

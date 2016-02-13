@@ -1,0 +1,11 @@
+.side-subsc { background: #ececec; padding: 11px 15px 15px; position: relative; }
+.side-subsc:after{content: "";position: absolute; top: -27px; left: 50%;margin-left: -27px;background: url(/static/i/head-side-subsc.png);width: 55px; height: 55px;}
+.side-subsc-fix { position: fixed; z-index: 5; top: 30px; width: 205px; }
+.side-subsc-ttl {font-family: 'apercu_pro_bold'; font-size: 18px; line-height: 22px; padding: 30px 0 9px; }
+.side-subsc-txt { color: #666; font-size: 12px; line-height: 18px; margin: 0 0 15px; }
+.side-subsc-a { color: White; font-family: apercu_pro, Arial, sans-serif; font-size: 10px; line-height: 30px; display: block; padding: 0 0 1px; text-decoration: none; text-transform: uppercase; text-align: center; background: #00a550; border-radius: 3px; margin-top: 20px; }
+.side-subsc-a:hover {text-decoration: none;}
+.side-subsc-inp {height: 33px; background: #fff; border: 0; border-radius: 3px; padding: 0 10px;}
+.side-subsc-inp::-webkit-input-placeholder {color: #00a550;} 
+.side-subsc-inp::-moz-placeholder {color: #00a550;}
+.side-subsc-inp:-moz-placeholder {color: #00a550;}

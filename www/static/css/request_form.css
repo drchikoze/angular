@@ -1,0 +1,48 @@
+.question {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+::-webkit-input-placeholder {color:#9c9c9c !important; }
+::-moz-placeholder          {color:#9c9c9c !important;}/* Firefox 19+ */
+:-moz-placeholder           {color:#9c9c9c !important;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#9c9c9c !important;}
+
+.request-form input, textarea {
+    margin-bottom: 10px;
+}
+
+.submit-block {
+    margin: 50px 50px 50px 40%;
+}
+
+.instruction {
+    font-size: 15px;
+    border-left: 3px solid #ccc;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.form-line span {
+    width: 110px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.form-line{
+    margin-bottom: 15px;
+}
+
+.form-line select {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.form-line input.wide {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.form-line input.swide {
+    width: 700px;
+}

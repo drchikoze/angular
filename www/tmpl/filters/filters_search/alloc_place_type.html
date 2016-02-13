@@ -1,0 +1,46 @@
+<div bindonce class="ls-form-select multi">
+    <div class="ls-form-cell-pp-holder" ng-class="{'req' : value}">
+
+        <div class="ls-form-select multi">
+            <div class="ls-form-select-lbl w65">Тип отеля</div>
+            <a href="javascript:void(0);" class="ls-form-inp ls-form-pp-btn ls-form-inp_last"
+               ng-click="displaySelectPopup()">
+                <span ng-if="value == ''">Не важно {{ value }}</span>
+                <span ng-if="value != ''">{{ value }}</span>
+                <span class="ls-form-inp-btn"></span>
+            </a>
+        </div>
+        <div class="ls-form-select-pp" ng-show="selectPopup">
+            <div class="ls-form-select-pp-inner">
+                <div class="ls-form-scroll-wrap">
+                    <div class="ls-form-scroll">
+                        <ul class="ls-form-list">
+                            <div ng-repeat="item in source.alloc_place_type">
+                                <li class="ls-form-list-i"
+                                    ng-class="{'uni-form-dd-i_current' : getValues() == item.id}"
+                                     ng-click="select(item, true)">
+                                    <a href="javascript:void(0);" class="ls-form-list-i-a" title="{{item.description}}"
+                                       bo-text="item.name"></a>
+                                </li>
+                                <ul class="ls-form-list ls-form-list_f ls-form-list_chck" ng-show="getValues() == item.id || getValues() == 0">
+                                    <li class="ls-form-list-i" ng-repeat="item_line in source.alloc_place_value[item.id] | orderBy:'name'" >
+                                        <input type="checkbox" class="ls-form-chck"
+                                               id="apv_{{ item_line.id }}"
+                                               name="apv[]"
+                                               ng-click="selectAllocValue('apv', item_line)"
+                                               ng-init="selected[item_line.id] = item_line.selected"
+                                               ng-model="selected[item_line.id]"
+                                               value="{{ item_line.id }}" />
+                                        <label class="ls-form-chck-lbl" for="apv_{{ item_line.id }}" bo-text="item_line.name" title="{{ item_line.description }}"></label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

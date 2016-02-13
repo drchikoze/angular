@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'LetoSans';
+    src: url('/static/fonts/LetoSans.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LetoSans-Bold';
+    src: url('/static/fonts/LetoSans-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+#instruction,
+#instruction_request  {
+    display: none;
+    position: fixed; top: 0; right: 0; bottom: 0;
+    left: 50%;
+    margin: auto auto auto -385px;
+    width: 770px;
+    height: 700px;
+    background: #fff;
+    box-shadow: 0 0 10px #696969;
+    z-index: 1002;
+}
+
+.modal-top {
+    padding: 10px;
+}
+.modal-mid {
+    display: none;
+}
+
+.modal-ttl {
+    font-family: 'LetoSans-Bold';
+    font-size: 21px;
+    line-height: 25px;
+    color: #f72327;
+    margin-bottom: 20px;
+}
+.b2t + .modal-ttl {
+    display: none;
+}
+.modal-bot {
+    bottom: 0 !important;
+    position: absolute;
+    padding: 10px;
+}
+.message-sent-info a.personal-cabinet-href {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background: #f90f03;
+    padding: 10px;
+    margin-top: 80px;
+    border-radius: 5px;
+    border: 1px solid #ddd
+}
+@media screen and (min-width: 390px) {
+    .modal-ttl {
+        line-height: 50px;
+        margin-bottom: 0;
+    }
+    .modal-mid {
+        display: block;
+    }
+    .modal-top {
+        padding: 0 30px;
+        border-bottom: 1px dashed #c3c3c3;
+    }
+    .b2t + .modal-ttl {
+        display: block;
+    }
+    .modal-bot {
+        bottom: 0 !important;
+        position: static;
+        padding: 11px 15px 0 30px;
+        height: 46px;
+        border-top: 1px dashed #c3c3c3;
+    }
+    .message-sent-info a.personal-cabinet-href {
+        width: auto;
+        text-align: left;
+        text-transform: none;
+        margin-top: 20px;
+    }
+}
+
+h4.modal-ttl {
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: normal;
+}
+
+.modal-top-close {
+    position: absolute; top: 20px; right: 20px;
+    width: 12px; height: 12px;
+    background: url(../i/icon-close.png);
+    border: 0;
+    z-index: 1003;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+.modal-mid {
+    padding: 0 15px 0 45px;
+}
+.simple-steps {
+}
+.simple-step {
+    display: table;
+    width: 100%;
+}
+.simple-step-l {
+    display: table-cell;
+    padding: 10px 0 10px 0;
+}
+.simple-step-ttl {
+    font-family: 'LetoSans';
+    font-size: 17px;
+    line-height: 22px;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.simple-step-p {
+    color: #939598;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+.simple-step-link {text-decoration: none;}
+.simple-step-link:hover {text-decoration: underline;}
+.simple-step-link_red {color: #f72327;}
+.simple-step-link_black {color: #000;}
+.simple-step-link_grey {color: #414141;}
+.simple-step-r {
+    display: table-cell;
+    width: 265px;
+    padding: 15px 0 15px 20px;
+    vertical-align: bottom;
+}
+.simple-step-bubble {
+    background: #f3f3f3;
+    color: #999;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.modal-bot-p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 8px;
+    line-height: 12px;
+    color: #939598;
+}
+
+
+.modal.modal_simple {
+    background-color: #fff;
+}

@@ -1,0 +1,31 @@
+<div class="ls-form-cell-pp-holder" ng-class="{'uni-form-dd_active1' : searchPopup, 'uni-form-dd_active2' : selectPopup, 'form-input-gray': item_gray == 1 || before_load_gray == undefined, 'form-input-black': item_black == 1}">
+    <div class="ls-form-select multi">
+        <div class="ls-form-select-lbl">
+            <span ng-if="nick == 're'">Курорт</span>
+            <span ng-if="nick == 'op'">Туроператор</span>
+        </div>
+        <a ng-click="displaySelectPopup()"
+           ng-model="value"
+           href="javascript:void(0);"
+           class="ls-form-inp ls-form-pp-btn ls-form-inp_last">
+            <span ng-show="value != ''">{{ value }}</span>
+            <span ng-show="value == ''">{{ label }}</span>
+            <span class="ls-form-inp-btn"></span>
+        </a>
+
+    </div>
+    <div class="ls-form-select-pp" ng-show="selectPopup">
+        <div class="ls-form-select-pp-inner">
+            <div class="ls-form-scroll-wrap">
+                <div class="ls-form-scroll">
+                    <ul class="ls-form-list ls-form-list_v ls-form-list_chck">
+                        <li class="ls-form-list-i" ng-repeat="item in source" >
+                            <input type="checkbox" class="ls-form-chck" id="item_{{ nick }}_{{ item.id }}" ng-model="selected[item.id]"  ng-click="selectWithoutToggle(item);">
+                            <label class="ls-form-chck-lbl" for="item_{{ nick }}_{{ item.id }}">{{ item.name }}</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

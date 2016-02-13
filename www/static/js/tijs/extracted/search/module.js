@@ -1,0 +1,1 @@
+angular.module('search', ['filters', 'ui.filters']);

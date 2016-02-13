@@ -1,0 +1,93 @@
+.community-banner {
+    border: 3px solid #00a551;
+    padding: 4px;
+}
+.community-banner-wrap {
+    margin-top: 15px;
+}
+.community-banner-inner {
+    display: table;
+    width: 100%;
+}
+.community-banner-img {
+    display: table-cell;
+    vertical-align: middle;
+    width: 49px; height: 49px;
+    text-align: center;
+}
+.community-banner-img img {display: inline-block;}
+.community-banner-main {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+.community-banner-main-p {
+    font-family: "apercu_pro_bold";
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+}
+.community-banner-main-p a {color: #00a551; text-decoration: none;}
+.community-banner-main-p a:hover {text-decoration: underline;}
+.community-banner-link {
+    display: table-cell;
+    vertical-align: middle;
+    width: 175px;
+    padding-right: 15px;
+    text-align: right;
+}
+.community-banner-link-a {
+    font-family: "apercu_pro_bold";
+    font-size: 15px;
+    line-height: 18px;
+    color: #00a551;
+    text-decoration: underline;
+}
+.community-banner-link-a:hover {text-decoration: none;}
+
+.community-banner_welcome.community-banner {
+    padding-left: 0;
+    padding-right: 0;
+    border-color: #e7ba06;
+}
+.community-banner_welcome .community-banner-main {padding: 0;}
+.community-banner_welcome .community-banner-main-p a {color: #e7ba06;}
+.community-banner_welcome .community-banner-link-a {
+    font-family: "apercu_pro_light";
+    font-size: 10px;
+    line-height: 28px;
+    height: 29px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #e7ba06;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+}
+.community-banner_welcome .community-banner-link-a:hover {text-decoration: none;}
+
+.user-status-icon {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: transparent url("/static/i/th-sprite-community-roles.png") no-repeat scroll 0% 0%;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.user-status-icon.active-subscriber {
+    background-position: 50% -97px;
+}
+
+.user-status-icon.hotel-friend {
+    background-position: 50% -196px;
+}
+
+.user-status-icon.frequent-visiter {
+    background-position: 50% -295px;
+}
+
+.user-status-icon.honorary-visiter {
+    background-position: 50% -395px;
+}

@@ -1,0 +1,23 @@
+.dynamics {overflow: hidden; padding: 4px 0 11px 0;}
+.dynamics-i {float: left; line-height: 24px; vertical-align: top; padding-right: 12px;}
+.dynamics-i:last-child {padding-right: 0;}
+.dynamics-rate {color: #00a551; background: #c2ebd6; border-radius: 3px; font-size: 11px; font-weight: bold; width: 38px; text-align: center; text-decoration: none; display: block;}
+.dynamics-rate-none {  background: #e1e1e1; color: #b2b2b2; }
+.dynamics-rate-bad { background: #f7eaea; color: #a87575; }
+.dynamics-rate-medium { background: #fcf5c8; color: #c3b453; }
+.dynamics-rate-good { color: #00a551; background: #c2ebd6; }
+.dynamics-like {background: url(../i/icon-like.png) 0 6px no-repeat; padding: 1px 0 0 14px; color: #00a551; font-size: 10px; text-decoration: none; display: block;}
+.dynamics-love {background: url(../i/icon-love.png) 0 8px no-repeat; padding: 1px 0 0 14px; color: #c53730; font-size: 10px; text-decoration: none; display: block;}
+.dynamics-notice {color: #bbb; font-size: 11px;}
+
+.alternatives-list .dynamics {overflow: hidden; padding: 4px 0 11px 0;}
+.alternatives-list .dynamics-i {float: left; line-height: 24px; vertical-align: top; padding-right: 12px;}
+.alternatives-list .dynamics-i:last-child {padding-right: 0;}
+.alternatives-list .dynamics-rate {color: #00a551; background: #c2ebd6; border-radius: 3px; font-size: 11px; font-weight: bold; width: 38px; text-align: center; text-decoration: none; display: block;}
+.alternatives-list .dynamics-rate-none {  background: #e1e1e1; color: #b2b2b2; }
+.alternatives-list .dynamics-rate-bad { background: #f7eaea; color: #a87575; }
+.alternatives-list .dynamics-rate-medium { background: #fcf5c8; color: #c3b453; }
+.alternatives-list .dynamics-rate-good { color: #00a551; background: #c2ebd6; }
+.alternatives-list .dynamics-like {background: url(../i/icon-like.png) 0 6px no-repeat; padding: 1px 0 0 14px; color: #00a551; font-size: 10px; text-decoration: none; display: block;}
+.alternatives-list .dynamics-love {background: url(../i/icon-love.png) 0 8px no-repeat; padding: 1px 0 0 14px; color: #c53730; font-size: 10px; text-decoration: none; display: block;}
+.alternatives-list .dynamics-notice {color: #bbb; font-size: 11px;}

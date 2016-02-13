@@ -1,0 +1,269 @@
+.header-top-auth {
+    position: absolute; top: 20px; left: 0;
+    width: 380px;
+    z-index: 100;
+    background: #fff;
+}
+.header-top-auth-ttl {
+    color: #353B45;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: "apercu_pro";
+    padding-bottom: 11px;
+}
+.header-top-auth-login {
+    display: none;
+    padding: 8px 15px 15px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px #696969;
+    box-shadow: 0 0 10px #696969;
+    z-index: 10;
+}
+.header-top-auth-login:after {
+    border-bottom: 4px solid #FFFFFF;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    content: "";
+    display: block;
+    left: 30px;
+    position: absolute;
+    top: -4px;
+}
+.header-top-auth-notice {
+    color: #999999;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 2px 0px 9px;
+}
+.header-top-auth-form {
+    background: #f2595c;
+    padding: 15px;
+}
+.header-top-auth-line {height: 34px; line-height: 34px;}
+.header-top-auth-line + .header-top-auth-line {margin-top: 5px;}
+.header-top-auth-lbl {
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 7px;
+    width: 118px;
+}
+.header-top-auth-inp {
+    border: 0;
+    border-radius: 3px;
+    display: inline-block;
+    font-family: "apercu_pro";
+    text-transform: uppercase;
+    font-size: 10px;
+    height: 34px;
+    line-height: normal;
+    padding: 0px 11px;
+    width: 192px;
+    color: #000;
+}
+.header-top-auth-inp_pass {width: 138px;}
+.header-top-auth-link {
+    color: #fff;
+    float: right;
+    font-size: 11px;
+    text-decoration: underline;
+}
+.header-top-auth-link:hover {text-decoration: none;}
+.header-top-auth-bot {padding-top: 15px;}
+.header-top-auth-btn {
+    display: inline-block;
+    border: 0;
+    border-radius: 3px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    background: #D52B1E;
+    height: 34px;
+    line-height: 32px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.header-top-auth-btn.btn-green {
+    background: #00a551;
+}
+.header-top-auth-reg {
+    display: none;
+    padding: 8px 15px 15px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px #696969;
+    box-shadow: 0 0 10px #696969;
+    z-index: 10;
+}
+.header-top-auth-reg:after {
+    border-bottom: 4px solid #FFFFFF;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    content: "";
+    display: block;
+    left: 130px;
+    position: absolute;
+    top: -4px;
+}
+.header-top-auth-reset {
+    display: none;
+    padding: 8px 15px 15px;
+    background: #fff;
+    -webkit-box-shadow: 0 0 10px #696969;
+    box-shadow: 0 0 10px #696969;
+    z-index: 10;
+}
+.header-top-auth-reset:after {
+    border-bottom: 4px solid #FFFFFF;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    content: "";
+    display: block;
+    left: 30px;
+    position: absolute;
+    top: -4px;
+}
+.header-top-auth-sw {
+    overflow: hidden;
+}
+.header-top-auth-sw-a {
+    height: 31px;
+    line-height: 31px;
+    background: #ebebec;
+    font-family: "apercu_pro";
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #3b3b3b;
+    float: left;
+    padding: 0 11px;
+    text-decoration: none;
+}
+.header-top-auth-sw-a.active {background: #f2595c; color: #fff;}
+.header-top-auth-sw-a:hover {text-decoration: none;}
+
+.header-top-auth-bot-help {
+    display: inline-block;
+    font-size: 11px;
+    color: #000;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 277px;
+    line-height: normal;
+}
+.header-top-auth-bot-help-red {
+    color:#c83831;
+}
+.header-top-auth-bot-a {
+    color: #c83831;
+    text-decoration: underline;
+}
+.header-top-auth-bot-a:hover {text-decoration: none;}
+
+
+.header-top-auth.var2,
+.header-top-auth.login{
+    text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-top-auth-ttl2{
+    background: url(../i/sale.png) no-repeat left center;
+    padding-left: 45px;
+    margin: 25px 5px 30px 10px;
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}
+.header-top-auth-ttl2.fz16{
+    font-size: 16px;
+}
+.header-top-auth-link-wrapp{
+    margin-top: 15px;
+    font-size: 11px;
+    color: #fff;
+}
+.header-top-auth-link-wrapp .header-top-auth-link{
+    float: none;
+}
+.header-top-auth.var2 .header-top-auth-btn{
+    min-width: 95px;
+}
+.header-top-auth-bot.auth .img-inline{
+    margin-left: 25px;
+}
+.header-top-auth-bot.reg .img-inline{
+    margin-left: 10px;
+}
+.header-top-auth-bot-txt{
+    margin-top: 10px;
+    padding-left: 5px;
+    line-height: 20px;
+    font-size: 11px;
+    color: #535353;
+}
+.header-top-auth-bot-icon{
+    background-image: url(../i/pp-cheaper-info.png);
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+}
+.header-top-auth-close{
+    background-image: url(../i/cross-grey.png);
+    display: inline-block;
+    vertical-align: middle;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.header-top-auth.login{
+    padding: 20px;
+    box-shadow: 0 0 10px #696969;
+    z-index: 10;
+    top: -50px;
+    left: 85px;
+}
+.header-top-auth.login:after{
+    border: 4px solid transparent;
+    border-right-color: #FFFFFF;
+    content: "";
+    display: block;
+    left: -8px;
+    position: absolute;
+    top: 40px;
+}
+.header-top-auth.login .header-top-auth-ttl2{
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+.header-top-auth-txt{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.header-top-auth-right{
+    float: right;
+    width: 100px;
+}
+.header-top-auth-right .header-top-auth-btn{
+    text-decoration: none;
+    width: 95px;
+}
+.header-top-auth-btn.btn-grey{
+    background-color: #545454;
+}
+.m15b {
+    margin-bottom: 15px;
+}
+.header-top-auth-btn-dis {
+    background: #c3c3c6;
+}
+

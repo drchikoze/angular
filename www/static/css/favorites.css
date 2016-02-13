@@ -1,0 +1,231 @@
+.pp-favorites-shadow {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.pp-favorites {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    width: 780px;
+    margin-left: -390px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 30px;
+    z-index: 51;
+    border: 1px solid #e9e9e9;
+    background: #fcfaf7 url(../i/pp-cheaper.png) no-repeat center bottom;
+    padding: 7px 30px 30px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.pp-favorites-x {
+    background: url(../i/pp-follow-x.png) no-repeat center;
+    display: block;
+    height: 25px;
+    width: 25px;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.pp-favorites-title {
+    font-size: 200%;
+}
+
+.favorites-email-btn {
+    display: inline-block;
+    width: auto;
+    height: 40px;
+    padding: 12px 32px;
+    background-color: #FF1B20;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid gray;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.favorites-email-btn-off {
+    background-color: #000;
+}
+
+#favorites-email-field {
+    padding: 11px 10px;
+    margin-right: -20px;
+    width: 335px;
+    height: 40px;
+    vertical-align: top;
+}
+
+.favorites-email-label {
+    background-color: gray;
+    padding: 13px;
+    border: 1px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 0;
+    color: white;
+    height: 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pp-favorites-info { background: url(../i/pp-cheaper-info.png) no-repeat 0 0; padding: 0 0 0 22px; color: #424242; font-size: 11px; line-height: 15px; margin: 7px 0 23px; }
+.pp-favorites-td { width: 50%; padding: 0 20px 7px 40px; font-size: 13px; line-height: 16px; vertical-align: top; }
+.pp-favorites-td1 { background: url(../i/pp-cheaper-td1.png) no-repeat 0 3px; }
+.pp-favorites-td2 { background: url(../i/pp-cheaper-td2.png) no-repeat 0 3px; }
+.pp-favorites-td3 { background: url(../i/pp-cheaper-td3.png) no-repeat 0 3px; }
+.pp-favorites-td4 { background: url(../i/pp-cheaper-td4.png) no-repeat 0 3px; }
+
+.favorites-list {
+    display: table;
+    width: 100%;
+}
+.favorites-row {
+    display: table-row;
+}
+.favorites-column {
+    display: table-cell;
+    vertical-align: top;
+    padding: 10px;
+    border-bottom: 1px solid #e9e9e9;
+}
+.favorites-column:first-child {
+    border-left: 1px solid #e9e9e9;
+}
+.favorites-column:last-child {
+    border-right: 1px solid #e9e9e9;
+}
+.favorites-column p {
+    line-height: 18px;
+}
+.favorites-hotel-photo {
+    min-width: 150px;
+}
+.favorites-hotel-description {
+    max-width: 150px;
+}
+.favorites-hotel-description-title a {
+    color: #000;
+    font-size: 18px;
+}
+.favorites-hotel-description-resort, .favorites-hotel-description-city, .favorites-hotel-description-room-type,
+.favorites-hotel-operator, .favorites-hotel-price-your-details, .favorites-hotel-price-your-diff {
+    color: #c1bfc5;
+}
+.favorites-hotel-operator {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.favorites-hotel-price {
+    text-align: center;
+}
+.favorites-hotel-price-was {
+    font-size: 16px;
+    text-decoration: line-through;
+}
+.favorites-hotel-price-now {
+    font-size: 18px;
+}
+.favorites-hotel-price-diff {
+    font-size: 16px;
+}
+.favorites-hotel-price-more {
+    color: #ed2125;
+}
+.favorites-hotel-price-less {
+    color: #14B21F;
+}
+.favorites-hotel-price-your {
+    border-top: 1px solid #EDEDED;
+    margin-top: 5px;
+}
+.favorites-hotel-price-your .my-price-block {
+    padding: 2px 0 0 20px;
+    text-align: left;
+}
+.favorites-hotel-price-your .my-price-form {
+    padding-top: 5px;
+}
+.favorites-hotel-price-your-details{
+    font-weight: bold;
+    font-size: 14px;
+}
+.favorites-hotel-price-your-diff {
+    font-size: 10px;
+}
+.favorites-hotel-buttons {
+    /*border-left: 1px solid #e9e9e9;*/
+}
+.favorites-hotel-buttons div {
+    margin-top: 10px;
+}
+.favorites-hotel-buttons a {
+    color: #cabeaa;
+}
+.favorites-hotel-buttons span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.favorites-hotel-buttons-text {
+    max-width: 80px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+.favorites-hotel-buttons .fa {
+    width: 14px;
+    height: 14px;
+    text-align: center;
+}
+.favorites-hotel-buttons-details .fa {
+    color: #14B21F;
+}
+.favorites-hotel-buttons-remove .fa {
+    color: #ed2125;
+}
+.favorites-hotel-buttons-notify .fa {
+    color: #2485ff;
+}
+[data-active="0"] .favorites-hotel-buttons-notify .fa {
+    color: rgb(202, 190, 170);
+}
+.favorites-temp-warning {
+    color: #ed2125;
+    margin-top: 10px;
+}
+
+.update-price-operator {
+    color: #ED2125;
+    text-decoration: none;
+}
+
+.wait-price {
+    margin: 15px 0px;
+}
+
+.refresh-link {
+    position: absolute;
+    right: 150px;
+    top: 97px;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+    .refresh-link {
+        left: 300px;
+    }
+    .refresh-link-text {
+        display: none;
+    }
+}

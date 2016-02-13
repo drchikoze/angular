@@ -1,0 +1,63 @@
+.step1-return-a{
+	color: #ed2125;
+	text-decoration: none;
+	line-height: 47px;
+	background: url(../i/icon-arrow-left.png) 0 5px no-repeat;
+	padding-left: 18px;	
+}
+.b-step1 a{
+	color: #ed2125;
+	text-decoration: none;	
+}
+.b-step1 a:hover{	
+	text-decoration: underline;	
+}
+.b-step3 a.step1-return-a:hover{	
+	text-decoration: underline;	
+}
+.step1-h1{
+	font-size: 20px;
+	margin-left: 15px;
+}
+.step1-name{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid #e9e9e9;
+}
+.wave-block{
+	position: relative;
+}
+.wave-block:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	background: url(../i/bg-wave-fff.png) 0 0 repeat-x;
+}
+.wave-block:before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: url(../i/bg-wave-fff2.png) 0 0 repeat-x;
+}
+
+.tourbook-form .input-name span.required {
+    padding: 0 2px !important;
+    color: red;
+}
+
+.tourbook-form .input-name span.error {
+    color: #f00;
+    padding: 0 !important;
+}
+
+.tourbook-form .submit-button.disabled {
+    background-color: #999;
+}

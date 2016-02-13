@@ -1,0 +1,151 @@
+.auth-discount {
+    padding: 13px;
+    background: url(../i/auth-discount-bg.png) top right no-repeat #F13D41;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #F13D41;
+}
+
+.auth-discount.auth-discount-accepted {
+    background: url(../i/auth-discount-bg-2.png) top right no-repeat #E2E2E2;
+    border-color: #E2E2E2;
+    cursor: default;
+}
+
+.auth-discount-percent {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.auth-discount-accepted .auth-discount-percent {
+    color: #FFFFFF;
+}
+
+.auth-discount-ttl {
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFC5C9;
+}
+
+.auth-discount-accepted .auth-discount-ttl {
+    color: #F13D41;
+}
+
+.auth-discount-ttl i {
+    color: white;
+    cursor: pointer;
+}
+
+.auth-discount-accepted .auth-discount-ttl i {
+    color: grey;
+}
+
+.auth-discount-amount {
+    font-size: 15px;
+    margin: 10px -13px;
+    padding: 10px 0;
+    color: #FFC5C9;
+    text-align: center;
+    border-top: 1px solid #FF6064;
+    border-bottom: 1px solid #FF6064;
+}
+
+.auth-discount-accepted .auth-discount-amount {
+    color: #000000;
+    border: 0;
+    background-color: #ffffff;
+}
+
+.auth-discount-amount-value {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.auth-discount-accepted .auth-discount-amount-value {
+    color: #000000;
+}
+
+.auth-discount-amount-value i {
+    font-size: 16px;
+}
+
+.auth-discount-btn {
+    padding: 8px 5px 10px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.auth-discount-request {
+    color: #F13D41;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.auth-discount-request span {
+    border-bottom: 1px dotted #F13D41;
+}
+
+.auth-discount-tooltip {
+    position: absolute;
+    top: -2px;
+    left: -150px;
+    width: 250px;
+    color: #333;
+    padding: 15px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: rgba(0,0,0,0.3) 0 0 14px 0;
+    z-index: 116;
+}
+
+.auth-discount-form .m-booking-top {
+    min-height: 55px;
+}
+
+.auth-discount-form .m-booking-form-comment {
+    display: none;
+}
+
+.auth-discount-form .m-booking-form-phone-call input {
+    width: auto;
+    height: 11px;
+    margin: -5px 5px 10px 25px;
+}
+
+.auth-discount-form .m-booking-form-error {
+    margin: 0 25px 15px;
+    padding: 10px;
+    background-color: #ffd1ca;
+    border: 2px solid #ff896e;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.auth-discount-form .auth-popover-links {
+    background-position: -2px 3px;
+}
+
+.auth-discount-form ul {
+    margin-left: 16px;
+    max-width: 500px;
+}
+
+.auth-discount-form li {
+    line-height: 16px;
+    list-style: disc;
+}

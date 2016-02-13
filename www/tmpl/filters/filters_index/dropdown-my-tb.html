@@ -1,0 +1,31 @@
+<div bindonce class="ls-form-cell-pp-holder"
+     ng-class="{'uni-form-dd_active1' : searchPopup, 'uni-form-dd_active2' : selectPopup}">
+    <div class="ls-form-select multi req">
+        <div class="ls-form-select-lbl">
+            <span>Страна</span>
+        </div>
+        <a href="javascript:void(0);" class="ls-form-inp ls-form-pp-btn ls-form-inp_last"
+           ng-click="displaySelectPopup()">
+            <span ng-if="value == ''">Все страны</span>
+            <span ng-if="value != ''">{{ value }}</span>
+            <span class="ls-form-inp-btn"></span>
+        </a>
+    </div>
+
+    <div class="ls-form-select-pp uni-form-dd-cnt2" ng-show="selectPopup">
+        <div class="ls-form-select-pp-inner">
+            <div class="ls-form-scroll-wrap">
+                <div class="ls-form-scroll uni-form-dd-tabs uni-form-dd-tabs_val ls-form-scroll-wrap">
+                    <ul class="ls-form-list">
+                        <li class="ls-form-list-i"
+                            data-ng-class="{'uni-form-dd-i_current' : getValues() == item.id}" bindonce
+                            ng-repeat="item in source"
+                            ng-click="select(item, false);"
+                                ><a href="javascript:void(0);" class="ls-form-list-i-a" bo-text="item.name">{{item.name}}</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

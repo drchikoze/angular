@@ -1,0 +1,55 @@
+.search-page {
+    padding: 20px;
+    font-family: apercu_pro, Arial, sans-serif;
+}
+
+.search-page h1{
+    display: inline-block;
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: bolder;
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+.search-list {
+    width: 100%
+}
+
+.search-list tr{
+    border-top: 1px solid #ccc;
+}
+
+.search-list tr:first-child{
+    border-top: 0px;
+}
+
+.search-list td{
+    padding-left: 10px;
+}
+
+.search-list td:hover{
+     background-color: #e8e8e8;
+ }
+
+.search-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.search-item{
+    padding: 10px 0 10px 0;
+}
+
+.search-item-title {
+    font-size: 16px; font-weight: bold;
+}
+
+.search-item-p {
+    font-size: 14px;
+}
+
+.search-item-operator {
+    font-size: 14px;
+    color: #AEAEAE
+}

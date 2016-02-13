@@ -1,0 +1,90 @@
+.search-results {}
+.search-results-head {line-height: 42px; width: 100%;}
+.search-results-head .grey {color: #999;}
+.search-results-empty {text-align:center;margin: 20px 0;color: #666; }
+.search-results-loader {text-align: center;margin: 20px 0;color: #666; }
+.search-results-loader img {margin-bottom: 10px; }
+.search-results-body {}
+.search-results-item {padding: 0 0 18px 0;}
+.search-results-item-inner {overflow: hidden; border: 1px solid #e9e9e9;}
+.search-results-item-l {float: left;border-right: 1px solid #e9e9e9; padding: 10px 11px 7px 11px; margin-right: -1px;}
+.search-results-img {display: block; float: left; border-top: 2px solid #fff; border-right: 2px solid #fff;}
+.search-results-img:first-child {float: none; border-top: 0;}
+.search-results-item-r { overflow: hidden; padding: 0 11px;border-left: 1px solid #e9e9e9;}
+.search-results-item-top {line-height: 20px; padding: 8px 0 0 0;}
+.search-results-item-ttl {color: #ed2125; font-size: 18px; font-weight: bold; text-decoration: none; overflow: hidden; display: block;}
+.search-results-item-ttl:hover {text-decoration: underline;}
+.search-results-item-loc {color: #bbb; font-size: 11px;}
+.search-results-item-mid {}
+.search-results-item-line {border-bottom: 1px solid #f6f6f6;}
+.search-results-rooms {border-top: 1px solid #f6f6f6;}
+.search-results-rooms-i {border-bottom: 1px solid #f0ece3;line-height: 16px; padding: 11px 0 12px 0;}
+.b-hotel a.search-results-rooms-h3, .search-results-rooms-h3 {color: #333; font-size: 12px; font-weight: bold;text-decoration: none;}
+.b-hotel a.search-results-rooms-h3:hover, .search-results-rooms-h3:hover {text-decoration: underline;}
+.search-results-rooms-meal {color: #00a551; font-weight: normal;}
+.search-results-rooms-price {float: right; font-size: 12px; font-weight: bold;}
+.search-results-rooms-detail {color: #999;}
+.tour_description {width: 300px; float: left;}
+.search-results-rooms-prov {float: right;width: 95px; text-align: right}
+.search-results-item-bot {padding: 11px 0 12px 0;}
+.search-results-item-more {color: #ed2125;  text-decoration: none;}
+.search-results-item-more span {font-weight: bold;}
+.search-results-item-more:hover span {text-decoration: underline;}
+
+.search-results-rooms-btn {display: block; float: right; width: 97px; height: 27px; margin: 3px 0 0 20px; line-height: 27px; text-decoration: none; text-align: center; background: #ed2125; color: #fff; text-transform: uppercase; font-size: 10px;font-weight: bold; border-radius: 3px; padding: 0 10px;}
+
+.search-results-allocation-state {
+    float: right;
+    text-align: center;
+    margin-right: 15px;
+    color: #999;
+    padding-top: 3px;
+    display: block;
+}
+
+.search-results-seats-yes {
+    color: #008800;
+}
+
+.search-results-seats-no {
+    color: #c53c3c;
+}
+
+.search-results-seats-by-request {
+    color: goldenrod;
+}
+
+.search-results-seats-unknown {
+    color: gray;
+}
+
+.refresh-content-container.in-overlay {
+    position: fixed;
+    z-index: 1000;
+    max-width: 679px;
+}
+
+.refresh-content-container {
+    margin-top: 42px;
+}
+.refresh-content-container.animate-show.ng-hide-add.ng-hide-add-active,
+.refresh-content-container.animate-show.ng-hide-remove.ng-hide-remove-active {
+    /*position: fixed;*/
+    /*max-width: 679px;*/
+}
+
+.refresh-content-container.animate-show.ng-hide {
+}
+
+.active-country {
+    color: #50BD54;
+    text-decoration: underline;
+}
+.not-active-country {
+    color: #E0E0E0;
+    text-decoration: underline;
+}
+
+.search-results-empty .m-booking {
+    text-align: left;
+}

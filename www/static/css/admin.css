@@ -1,0 +1,223 @@
+/* общие стили */
+a {color:#36c; text-decoration:underline}
+a:hover {text-decoration:none}
+
+html,body {height:100%; margin:0; padding:0}
+
+body,td {font-family: Tahoma,Arial,sans-serif; font-size: smaller;}
+
+form {margin:0}
+
+input,select,textarea {font-family:Tahoma,Arial,sans-serif; font-size: 100%;}
+
+/* цвета */
+.c0 {color:#000}
+.c1 {color:#07737f}
+.c2 {color:#797979}
+.c3 {color:#4468ae}
+.c4 {color:#f00}
+.c5,.ul1 {color:#36c}
+.c6 {color:#693}
+.c7 {color:#933}
+.c8 {color:#f90}
+.c9 {color:#008800;}
+.c10 {color:#CC0000;}
+
+/* меню */
+.mainMenu .top .active a {color: #000}
+.mainMenu .top .passive a {color: #36c}
+
+.mainMenu .level .active {background-color: #e3e3e3}
+
+.mainMenu .menuEnd { clear: both }
+
+.i1 {border:1px solid #aaa}
+.i2 {border:1px solid #f90}
+
+a.c2:link,a.c2:visited,a.c2:active {color:#797979; text-decoration:none}
+a.c2:hover  {color:#797979; text-decoration:underline}
+input.i1, textarea.i1 {border:1px solid #000}
+input.i2 {border:1px solid #f00}
+input.i3 {border:1px solid #33cc33}
+table.f14 td, td.f14, .ul1 {}
+.ul2 {list-style-type:square; color:#f90;margin:0;margin-left:20px}
+
+li {margin-bottom:8px}
+a img{border: 0}
+input.i2 {border:1px solid #f00}
+
+.mark1{ color: red; border: 0; }
+
+.err0{ border: 0; background-color: #F2F1F1; }
+.err_1 { background-color: #fcc; }
+td.err_1 { background-color: #fcc; }
+
+.header { background-color: #f3f3f3; }
+.table { background-color: #9c9c9c; width:100%;}
+
+.no {color:#EE0000; }
+.yes {color:#00BB00; }
+
+.row_sel { background-color: #f3f3f3; }
+
+.f_err { color:#ff0000; }
+.f_top_err { color: #f00;font-size:larger; }
+
+.t_value { width: 100%; }
+.s_value { width: 100%; }
+
+table .head { background-color: #f3f3f3; }
+
+
+table.admin_table {
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    background-color: #ffffff;
+}
+
+table.admin_table td{
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+table.none td{
+    border: 0;
+}
+
+.field, .lsf_form td.title{
+    background: url('/i/square.gif');
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-position: 5px 10px;
+    padding-top: 4px;
+}
+
+.form_head, h1{
+    font-size: large;
+    color: #777;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+h2{
+    font-size: larger;
+    color: #777;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.filter_form {
+    margin: 10px 0;
+}
+
+.error{
+    color: red;
+    font-weight: bold;
+}
+
+.error_description td{
+    color: red;
+    font-weight: bold;
+    text-align: right;
+}
+
+td.b2 {border-right:1px solid #E8E8E8}
+
+.admin_table td.noleft {border-left: 0}
+
+.mainMenu div.top {
+    border-bottom: 1px solid #3366cc;
+}
+
+div.innerMenu a{
+    font-weight: bold;
+}
+
+div.innerMenu a.c0{
+    color: black;
+}
+
+div.innerMenu {
+    margin: 5px;
+}
+
+.filter .field {
+    background-image: none;
+    float: left;
+    padding-left: 3px;
+    min-height: 30px;
+}
+
+.filter .field .value{
+    float: left;
+    height: 100%;
+}
+.filter .field .title{
+    float: left;
+    padding-top: 3px;
+    padding-right: 2px;
+    height: 100%;
+}
+
+.lsf_form .required{
+    color: red;
+    font-weight: bold;
+}
+
+.lsf_form tr.errors td{
+    color: red;
+    font-weight: bold;
+    padding-top: 0;
+    text-align: center;
+}
+
+.author_column {
+    width: 100px;
+}
+
+.name_column {
+    width: 800px;
+}
+
+.num_column {
+    width: 67px;
+}
+
+.count_commit {
+    width: 120px;
+}
+
+.task_name {
+    cursor: pointer;
+}
+
+.p5 td{
+    padding: 5px;
+}
+
+.grey_href a {
+    color: #444;
+}
+
+.task {
+    display: none;
+}
+.task-hide {
+    display: inline;
+}
+
+.underline {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.underline:hover {
+    text-decoration: none;
+}
+
+.migr_exist, .config_exist {
+    font-weight: 900;
+    display: block;
+    float: right;
+    margin-right: 3px;
+}

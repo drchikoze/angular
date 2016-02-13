@@ -1,0 +1,30 @@
+<div class="hbr-widget-line" data-bindonce>
+    <div class="hbr-widget-inp-wrap" data-ng-class="{'hbr-widget-inp-wrap_act' : searchPopup}">
+        <div class="hbr-widget-lbl">Откуда</div>
+        <div class="hbr-widget-field">
+            <a href="javascript:void(0)" class="hbr-widget-inp hbr-widget-modal-trigger">
+                <input class="hbr-widget-modal-select-val" type="text" data-ng-model="value"
+                       tabindex="1" data-ng-focus="value=''; searchPopup || displaySearchPopup()" ui:keyboard-navigatable
+                       data-navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}">
+                <i class="hbr-widget-icon hbr-widget-btn hbr-widget-icon_list" tabindex="2"
+                   data-ng-click="value=''; displaySearchPopup()" ui:keyboard-navigatable
+                   data-navigate-on="{up: selectPrevItem, down: selectNextItem, submit: submit, escape: close}"></i>
+            </a>
+        </div>
+    </div>
+    <div class="hbr-widget-modal hbr-widget-modal-angular" data-ng-show="searchPopup">
+        <div class="hbr-widget-modal-top">
+            <a href="javascript:void(0)" class="hbr-widget-modal-close" title="Закрыть" data-ng-click="displaySearchPopup()"></a>
+        </div>
+        <div class="hbr-widget-modal-mid hbr-widget-modal-scroll">
+            <div class="hbr-widget-modal-mid-inner">
+                <div class="hbr-widget-modal-tr hbr-widget-modal-select-item"
+                     data-ng-class="{'hbr-widget-modal-select-item_current' : getValues() == item.id}"
+                     data-ng-repeat="item in source | filterTranslit:value"
+                     data-ng-click="select(item, true)">
+                    <div class="hbr-widget-modal-key" data-bo-text="item.name"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
